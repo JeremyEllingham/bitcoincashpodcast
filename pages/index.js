@@ -37,6 +37,31 @@ const recommendedLinks = [
     url: "https://www.youtube.com/watch?v=-jUsSEOqZME&feature=emb_title",
     title: '10 Years of Bitcoin',
     description: 'Hayden Otto explains in a 1 hour talk how it all came to be, Bitcoin Cash vs Bitcoin etc.'
+  },
+  {
+    url: 'https://txstreet.com/v/bch-btc',
+    title: 'TxStreet',
+    description: "Watch Bitcoin Cash's smooth bus station overtake Bitcoin's overcrowded mess.",
+  },
+  {
+    url: 'https://cash.coin.dance/blocks/transactions',
+    title: 'Coin.dance',
+    description: 'Keep up on the latest Bitcoin Cash stats.',
+  },
+  {
+    url: 'https://reddit.com/r/btc',
+    title: 'Reddit /r/btc',
+    description: ' Discuss or keep up with the Bitcoin Cash community.',
+  },
+  {
+    url: 'https://nakamotoinstitute.org/mempool/',
+    title: 'Nakamoto Institute Mempool',
+    description: 'Read up on some big picture Bitcoin theory.',
+  },
+  {
+    url: 'https://99bitcoins.com/bitcoin-obituaries/',
+    title: 'Bitcoin Obituaries',
+    description: 'Declared dead 350+ times for over 10 years. RIP the haters.',
   }
 ]
 
@@ -73,6 +98,7 @@ const Home = () => {
             <h3>
               Recommended
             </h3>
+            
             {recommendedLinks.map(({ url, title, description }) => (
               <RecommendedLink
               url={url}
@@ -80,57 +106,6 @@ const Home = () => {
               description={description}
             />
             ))}
-            
-            <p>
-              <b>
-                <u>
-                  <i>
-                    <a href="https://txstreet.com/v/bch-btc" target="_blank">TxStreet</a>
-                  </i>
-                </u>
-              </b>: 
-              Watch Bitcoin Cash's smooth bus station overtake Bitcoin's overcrowded mess.
-            </p>
-            <p>
-              <b>
-                <u>
-                  <i>
-                    <a href="https://cash.coin.dance/blocks/transactions" target="_blank">Coin.dance</a>
-                  </i>
-                </u>
-              </b>: 
-              Keep up on the latest Bitcoin Cash stats.
-            </p>
-            <p>
-              <b>
-                <u>
-                  <i>
-                    <a href="https://reddit.com/r/btc" target="_blank">Reddit /r/btc</a>
-                  </i>
-                </u>
-              </b>: 
-              Discuss or keep up with the Bitcoin Cash community.
-            </p>
-            <p>
-              <b>
-                <u>
-                  <i>
-                    <a href="https://nakamotoinstitute.org/mempool/" target="_blank">Nakamoto Institute Mempool</a>
-                  </i>
-                </u>
-              </b>: 
-              Read up on some big picture Bitcoin theory.
-            </p>
-            <p>
-              <b>
-                <u>
-                  <i>
-                    <a href="https://99bitcoins.com/bitcoin-obituaries/" target="_blank">Bitcoin Obituaries</a>
-                  </i>
-                </u>
-              </b>: 
-              Declared dead 350+ times for over 10 years. RIP the haters.
-            </p>
           </Grid>
         </Grid>
       </main>
