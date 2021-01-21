@@ -6,6 +6,23 @@ const myStyles = {
   container: {
     backgroundColor: 'red',
     flexGrow: 1,
+  },
+  titleWrapper: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row'
+  },
+  title: {
+    margin: 0,
+    paddingLeft: 20,
+    paddingRight: 20,
+    lineHeight: 1.15,
+    fontSize: 80,
+  },
+  logo: {
+    maxHeight: 100,
+    width: 500,
   }
 }
 
@@ -18,17 +35,22 @@ const Home = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          The Bitcoin Cash Podcast
-        </h1>
-
-        <Grid style={myStyles.container} container>
-          Some text inside my grid
-        </Grid>
+        <div style={myStyles.titleWrapper}>
+          <h1 style={myStyles.title}>
+            The
+          </h1>
+          <img src="/bchLogo2.png" alt="BCH Logo" style={myStyles.logo} />
+          <h1 style={myStyles.title}>Podcast</h1>
+        </div>
+        
 
         <p className={styles.description}>
           Following Bitcoin Cash on its rise to global reserve currency.
         </p>
+
+        <Grid style={myStyles.container} container>
+          Some text inside my grid
+        </Grid>
 
         <h2>
           Recommended
