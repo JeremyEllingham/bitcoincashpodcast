@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
+import ReactPlayer from 'react-player/youtube'
 
 const myStyles = {
   container: {
@@ -28,7 +29,7 @@ const myStyles = {
 
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>The Bitcoin Cash Podcast</title>
         <link rel="icon" href="/favicon.ico" />
@@ -51,11 +52,12 @@ const Home = () => {
         <Grid style={myStyles.container} container justify="center" spacing={2}>
           <Grid item>
             <h2>Episodes</h2>
+            <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
             <p>Youtube video</p>
             <p>Youtube video</p>
             <p>Youtube video</p>
           </Grid>
-          <Grid item>
+          <Grid item lg={3}>
             <h3>
               Recommended
             </h3>
@@ -132,17 +134,6 @@ const Home = () => {
           </Grid>
         </Grid>
       </main>
-
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer> */}
     </div>
   )
 }
