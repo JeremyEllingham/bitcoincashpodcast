@@ -5,7 +5,6 @@ import ReactPlayer from 'react-player/youtube'
 
 const myStyles = {
   container: {
-    backgroundColor: 'red',
     flexGrow: 1,
   },
   titleWrapper: {
@@ -52,10 +51,9 @@ const Home = () => {
         <Grid style={myStyles.container} container justify="center" spacing={2}>
           <Grid item>
             <h2>Episodes</h2>
+            <h3>#1: Whitepaper Whitewashing & Is The Flippening Nigh?</h3>
+            <p>Friday, 22nd January 2021</p>
             <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
-            <p>Youtube video</p>
-            <p>Youtube video</p>
-            <p>Youtube video</p>
           </Grid>
           <Grid item lg={3}>
             <h3>
