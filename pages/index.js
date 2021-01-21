@@ -88,16 +88,10 @@ const Home = () => {
         </p>
 
         <Grid style={myStyles.container} container justify="center" spacing={2}>
-          <Grid item>
-            <h2>Episodes</h2>
-            <h3>#1: Whitepaper Whitewashing & Is The Flippening Nigh?</h3>
-            <p>Friday, 22nd January 2021</p>
-            <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
-          </Grid>
           <Grid item lg={3}>
-            <h3>
+            <h2>
               Recommended
-            </h3>
+            </h2>
             
             {recommendedLinks.map(({ url, title, description }) => (
               <RecommendedLink
@@ -106,6 +100,13 @@ const Home = () => {
               description={description}
             />
             ))}
+          </Grid>
+
+          <Grid item>
+            <h2>Episodes</h2>
+            <h3>#1: Whitepaper Whitewashing & Is The Flippening Nigh?</h3>
+            <p>Friday, 22nd January 2021</p>
+            <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
           </Grid>
         </Grid>
       </main>

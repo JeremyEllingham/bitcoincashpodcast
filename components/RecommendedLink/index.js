@@ -8,7 +8,9 @@ const RecommendedLink = ({ url, title, description }) => (
           <a href={url} target="_blank">{title}</a>
         </i>
       </u>
-    </b>: {description}
+    </b>
+    <br />
+    {description}
   </p>
 )
 
