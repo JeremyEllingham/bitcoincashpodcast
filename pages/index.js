@@ -48,8 +48,13 @@ const Home = () => {
           Following Bitcoin Cash on its rise to global reserve currency.
         </p>
 
-        <Grid style={myStyles.container} container>
-          Some text inside my grid
+        <Grid style={myStyles.container} container justify="center" spacing={2}>
+          <Grid item>
+            Some text inside my grid asdfasf
+          </Grid>
+          <Grid item>
+            Right column.
+          </Grid>
         </Grid>
 
         <h2>
