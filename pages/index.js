@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
 import ReactPlayer from 'react-player/youtube'
+import RecommendedLink from '../components/RecommendedLink'
 
 const myStyles = {
   container: {
@@ -25,6 +26,19 @@ const myStyles = {
     width: 500,
   }
 }
+
+const recommendedLinks = [
+  {
+    url: "https://www.bitcoin.com/bitcoin.pdf",
+    title: 'The Bitcoin Whitepaper',
+    description: 'By Satoshi Nakamoto. Read it.'
+  }, 
+  {
+    url: "https://www.youtube.com/watch?v=-jUsSEOqZME&feature=emb_title",
+    title: '10 Years of Bitcoin',
+    description: 'Hayden Otto explains in a 1 hour talk how it all came to be, Bitcoin Cash vs Bitcoin etc.'
+  }
+]
 
 const Home = () => {
   return (
@@ -59,26 +73,14 @@ const Home = () => {
             <h3>
               Recommended
             </h3>
-            <p>
-              <b>
-                <u>
-                  <i>
-                    <a href="https://www.bitcoin.com/bitcoin.pdf" target="_blank">The Bitcoin Whitepaper</a>
-                  </i>
-                </u>
-              </b>: 
-              By Satoshi Nakamoto. Read it.
-            </p>
-            <p>
-              <b>
-                <u>
-                  <i>
-                    <a href="https://www.youtube.com/watch?v=-jUsSEOqZME&feature=emb_title" target="_blank">10 Years of Bitcoin</a>
-                  </i>
-                </u>
-              </b>: 
-              Hayden Otto explains in a 1 hour talk how it all came to be, Bitcoin Cash vs Bitcoin etc.
-            </p>
+            {recommendedLinks.map(({ url, title, description }) => (
+              <RecommendedLink
+              url={url}
+              title={title}
+              description={description}
+            />
+            ))}
+            
             <p>
               <b>
                 <u>
