@@ -119,6 +119,16 @@ const Home = () => {
               </b>: 
               Read up on some big picture Bitcoin theory.
             </p>
+            <p>
+              <b>
+                <u>
+                  <i>
+                    <a href="https://99bitcoins.com/bitcoin-obituaries/" target="_blank">Bitcoin Obituaries</a>
+                  </i>
+                </u>
+              </b>: 
+              Declared dead 350+ times for over 10 years. RIP the haters.
+            </p>
           </Grid>
         </Grid>
       </main>
