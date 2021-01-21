@@ -1,5 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Grid from '@material-ui/core/Grid'
+
+const myStyles = {
+  container: {
+    backgroundColor: 'red',
+    flexGrow: 1,
+  }
+}
 
 const Home = () => {
   return (
@@ -13,6 +21,10 @@ const Home = () => {
         <h1 className={styles.title}>
           The Bitcoin Cash Podcast
         </h1>
+
+        <Grid style={myStyles.container} container>
+          Some text inside my grid
+        </Grid>
 
         <p className={styles.description}>
           Following Bitcoin Cash on its rise to global reserve currency.
@@ -44,7 +56,7 @@ const Home = () => {
         <a></a>
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -53,7 +65,7 @@ const Home = () => {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
