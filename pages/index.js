@@ -50,37 +50,57 @@ const Home = () => {
 
         <Grid style={myStyles.container} container justify="center" spacing={2}>
           <Grid item>
-            Some text inside my grid asdfasf
+            <h2>Episodes</h2>
+            <p>Youtube video</p>
+            <p>Youtube video</p>
+            <p>Youtube video</p>
           </Grid>
           <Grid item>
-            Right column.
+            <h3>
+              Recommended
+            </h3>
+            <p>
+              <b>
+                <u>
+                  <i>
+                    <a href="https://www.bitcoin.com/bitcoin.pdf" target="_blank">The Bitcoin Whitepaper</a>
+                  </i>
+                </u>
+              </b>: 
+              By Satoshi Nakamoto. Read it.
+            </p>
+            <p>
+              <b>
+                <u>
+                  <i>
+                    <a href="https://txstreet.com/v/bch-btc" target="_blank">TxStreet</a>
+                  </i>
+                </u>
+              </b>: 
+              Watch Bitcoin Cash's smooth bus station overtake Bitcoin's overcrowded mess.
+            </p>
+            <p>
+              <b>
+                <u>
+                  <i>
+                    <a href="https://nakamotoinstitute.org/mempool/" target="_blank">Nakamoto Institute Mempool</a>
+                  </i>
+                </u>
+              </b>: 
+              Read up on some big picture Bitcoin theory.
+            </p>
+            <p>
+              <b>
+                <u>
+                  <i>
+                    <a href="https://reddit.com/r/btc" target="_blank">Reddit /r/btc</a>
+                  </i>
+                </u>
+              </b>: 
+              Discuss or keep up with the Bitcoin Cash community.
+            </p>
           </Grid>
         </Grid>
-
-        <h2>
-          Recommended
-        </h2>
-        <p>
-          <b>
-            <u>
-              <i>
-                <a href="https://txstreet.com/v/bch-btc" target="_blank">TxStreet</a>
-              </i>
-            </u>
-          </b>: 
-          Watch Bitcoin Cash's smooth bus station overtake Bitcoin's overcrowded mess.
-        </p>
-        <p>
-          <b>
-            <u>
-              <i>
-                <a href="https://reddit.com/r/btc" target="_blank">Reddit /r/btc</a>
-              </i>
-            </u>
-          </b>: 
-          Discuss or keep up with the Bitcoin Cash community.
-        </p>
-        <a></a>
       </main>
 
       {/* <footer className={styles.footer}>
