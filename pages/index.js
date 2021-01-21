@@ -73,6 +73,16 @@ const Home = () => {
               <b>
                 <u>
                   <i>
+                    <a href="https://www.youtube.com/watch?v=-jUsSEOqZME&feature=emb_title" target="_blank">10 Years of Bitcoin</a>
+                  </i>
+                </u>
+              </b>: 
+              Hayden Otto explains in a 1 hour talk how it all came to be, Bitcoin Cash vs Bitcoin etc.
+            </p>
+            <p>
+              <b>
+                <u>
+                  <i>
                     <a href="https://txstreet.com/v/bch-btc" target="_blank">TxStreet</a>
                   </i>
                 </u>
@@ -83,11 +93,11 @@ const Home = () => {
               <b>
                 <u>
                   <i>
-                    <a href="https://nakamotoinstitute.org/mempool/" target="_blank">Nakamoto Institute Mempool</a>
+                    <a href="https://cash.coin.dance/blocks/transactions" target="_blank">Coin.dance</a>
                   </i>
                 </u>
               </b>: 
-              Read up on some big picture Bitcoin theory.
+              Keep up on the latest Bitcoin Cash stats.
             </p>
             <p>
               <b>
@@ -98,6 +108,16 @@ const Home = () => {
                 </u>
               </b>: 
               Discuss or keep up with the Bitcoin Cash community.
+            </p>
+            <p>
+              <b>
+                <u>
+                  <i>
+                    <a href="https://nakamotoinstitute.org/mempool/" target="_blank">Nakamoto Institute Mempool</a>
+                  </i>
+                </u>
+              </b>: 
+              Read up on some big picture Bitcoin theory.
             </p>
           </Grid>
         </Grid>
