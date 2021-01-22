@@ -22,8 +22,8 @@ const myStyles = {
     fontSize: 80,
   },
   logo: {
-    maxHeight: 100,
-    width: 500,
+    maxHeight: 200,
+    width: 700,
   }
 }
 
@@ -75,11 +75,7 @@ const Home = () => {
 
       <main className={styles.main}>
         <div style={myStyles.titleWrapper}>
-          <h1 style={myStyles.title}>
-            The
-          </h1>
-          <img src="/bchLogo2.png" alt="BCH Logo" style={myStyles.logo} />
-          <h1 style={myStyles.title}>Podcast</h1>
+          <img src="/banner.png" alt="BCH Logo" style={myStyles.logo} />
         </div>
         
 
