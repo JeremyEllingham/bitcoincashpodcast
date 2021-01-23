@@ -102,7 +102,7 @@ const Home = () => {
             <h2>Episodes</h2>
             <h3>#1: Whitepaper Whitewashing & Is The Flippening Nigh?</h3>
             <p>Friday, 22nd January 2021</p>
-            <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+            <ReactPlayer url='https://youtu.be/oSWNRxb12r8' />
           </Grid>
         </Grid>
       </main>
