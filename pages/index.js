@@ -1,36 +1,10 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles2 from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
 import ReactPlayer from 'react-player/youtube'
 import RecommendedLink from '../components/RecommendedLink'
 import recommendedLinks from './recommendedLinks'
-
-const myStyles = {
-  container: {
-    flexGrow: 1,
-  },
-  titleWrapper: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'row'
-  },
-  title: {
-    margin: 0,
-    paddingLeft: 20,
-    paddingRight: 20,
-    lineHeight: 1.15,
-    fontSize: 80,
-  },
-  logo: {
-    maxHeight: 200,
-    width: 700,
-  },
-  link: {
-    paddingRight: 10, 
-    paddingLeft: 10
-  }
-}
+import styles from './styles'
 
 const Home = () => {
   return (
@@ -40,17 +14,17 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div style={myStyles.titleWrapper}>
-          <img src="/banner.png" alt="BCH Logo" style={myStyles.logo} />
+      <main className={styles2.main}>
+        <div style={styles.titleWrapper}>
+          <img src="/banner.png" alt="BCH Logo" style={styles.logo} />
         </div>
         
 
-        <p className={styles.description}>
+        <p className={styles2.description}>
           Following Bitcoin Cash on its rise to global reserve currency.
           <br />
           <a 
-            style={myStyles.link} 
+            style={styles.link} 
             href='https://rss.com/podcasts/bitcoincashpodcast/' 
             target='_blank'
           >
@@ -59,7 +33,7 @@ const Home = () => {
             </u>
           </a> 
           <a 
-            style={myStyles.link} 
+            style={styles.link} 
             href='https://read.cash/@BitcoinCashPodcast' 
             target='_blank'
           >
@@ -69,7 +43,7 @@ const Home = () => {
           </a>
         </p>
 
-        <Grid style={myStyles.container} container justify="center" spacing={2}>
+        <Grid style={styles.container} container justify="center" spacing={2}>
           <Grid item lg={3}>
             <h2>
               Recommended
