@@ -4,6 +4,7 @@ import CoinGecko from 'coingecko-api';
 const CoinGeckoClient = new CoinGecko();
 
 const Prices = () => {
+  const [bchPerBtc, setBchPerBtc] = useState(0)
   const [mBchPerUsd, setMBchPerUsd] = useState(0)
   const [mBchPerGbp, setMBchPerGbp] = useState(0)
   const [mBchPerEur, setMBchPerEur] = useState(0)
@@ -13,6 +14,10 @@ const Prices = () => {
   useEffect(() => {
     const grabData = async () => {
       const data = await CoinGeckoClient.coins.fetch('bitcoin-cash', {});
+
+      const bchBuysBtc = data?.data?.market_data?.current_price?.btc
+      const calcBtcBuysBch = Number(1 / bchBuysBtc).toFixed(3)
+      setBchPerBtc(calcBtcBuysBch)
 
       const usdPrice = data?.data?.market_data?.current_price?.usd
       const bchPerUsd = 1 / usdPrice
@@ -46,11 +51,12 @@ const Prices = () => {
   return (
     <div>
       <h2>Prices</h2>
-      <p>1 USD buys {mBchPerUsd}mBCH</p>
-      <p>1 GBP buys {mBchPerGbp}mBCH</p>
-      <p>1 EUR buys {mBchPerEur}mBCH</p>
-      <p>1 CNY buys {mBchPerCny}mBCH</p>
-      <p>1 AUD buys {mBchPerAud}mBCH</p>
+      <p>1 BTC buys {bchPerBtc} BCH</p>
+      <p>1 USD buys {mBchPerUsd} mBCH</p>
+      <p>1 GBP buys {mBchPerGbp} mBCH</p>
+      <p>1 EUR buys {mBchPerEur} mBCH</p>
+      <p>1 CNY buys {mBchPerCny} mBCH</p>
+      <p>1 AUD buys {mBchPerAud} mBCH</p>
       <p>1 mBCH (milli Bitcoin Cash) = 0.001 BCH</p>
     </div>
   )
