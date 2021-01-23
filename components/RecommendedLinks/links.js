@@ -1,4 +1,4 @@
-const recommendedLinks = [
+const links = [
     {
       url: "https://www.bitcoin.com/bitcoin.pdf",
       title: 'The Bitcoin Whitepaper',
@@ -36,4 +36,4 @@ const recommendedLinks = [
     }
   ]
 
-  export default recommendedLinks
+  export default links

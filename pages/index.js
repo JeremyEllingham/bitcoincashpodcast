@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import styles2 from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
-import RecommendedLink from '../components/RecommendedLink'
 import EpisodesList from '../components/EpisodesList'
-import recommendedLinks from './recommendedLinks'
+import RecommendedLinks from '../components/RecommendedLinks'
 import styles from './styles'
 
 const Home = () => {
@@ -45,17 +44,8 @@ const Home = () => {
 
         <Grid style={styles.container} container justify="center" spacing={2}>
           <Grid item lg={3}>
-            <h2>
-              Recommended
-            </h2>
-            
-            {recommendedLinks.map(({ url, title, description }) => (
-              <RecommendedLink
-              url={url}
-              title={title}
-              description={description}
-            />
-            ))}
+            <RecommendedLinks />
+
           </Grid>
 
           <Grid item>
