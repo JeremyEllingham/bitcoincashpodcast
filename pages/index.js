@@ -24,6 +24,10 @@ const myStyles = {
   logo: {
     maxHeight: 200,
     width: 700,
+  },
+  link: {
+    paddingRight: 10, 
+    paddingLeft: 10
   }
 }
 
@@ -82,7 +86,24 @@ const Home = () => {
         <p className={styles.description}>
           Following Bitcoin Cash on its rise to global reserve currency.
           <br />
-          <a href='https://rss.com/podcasts/bitcoincashpodcast/' target='_blank'><u>RSS Feed</u></a> 
+          <a 
+            style={myStyles.link} 
+            href='https://rss.com/podcasts/bitcoincashpodcast/' 
+            target='_blank'
+          >
+            <u>
+              RSS Feed
+            </u>
+          </a> 
+          <a 
+            style={myStyles.link} 
+            href='https://read.cash/@BitcoinCashPodcast' 
+            target='_blank'
+          >
+            <u>
+              Noise.cash
+            </u>
+          </a>
         </p>
 
         <Grid style={myStyles.container} container justify="center" spacing={2}>
