@@ -23,6 +23,7 @@ const Home = () => {
         <p className={styles2.description}>
           Following Bitcoin Cash on its rise to global reserve currency.
           <br />
+          <br />
           <a 
             style={styles.link} 
             href='https://rss.com/podcasts/bitcoincashpodcast/' 
