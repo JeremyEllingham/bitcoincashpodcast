@@ -104,7 +104,7 @@ const Home = () => {
             <h2>Episodes</h2>
             <h3>#1: Whitepaper Whitewashing & Is The Flippening Nigh?</h3>
             <p>Friday, 22nd January 2021</p>
-            <ReactPlayer url='https://youtu.be/_uimCmw1m9E' />
+            <ReactPlayer url='https://www.youtube.com/watch?v=_uimCmw1m9E' />
             <p>BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp</p>
           </Grid>
         </Grid>
