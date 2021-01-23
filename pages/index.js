@@ -44,13 +44,13 @@ const Home = () => {
         </p>
 
         <Grid style={styles.container} container justify="center" spacing={2}>
-          <Grid item>
-            <EpisodesList />
-          </Grid>
-
           <Grid item lg={3}>
             <Prices />
             <RecommendedLinks />
+          </Grid>
+
+          <Grid item>
+            <EpisodesList />
           </Grid>
         </Grid>
       </main>
