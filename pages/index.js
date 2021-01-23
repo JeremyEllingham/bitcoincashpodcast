@@ -3,6 +3,7 @@ import styles2 from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
 import EpisodesList from '../components/EpisodesList'
 import RecommendedLinks from '../components/RecommendedLinks'
+import Prices from '../components/Prices'
 import styles from './styles'
 
 const Home = () => {
@@ -43,13 +44,13 @@ const Home = () => {
         </p>
 
         <Grid style={styles.container} container justify="center" spacing={2}>
-          <Grid item lg={3}>
-            <RecommendedLinks />
-
-          </Grid>
-
           <Grid item>
             <EpisodesList />
+          </Grid>
+
+          <Grid item lg={3}>
+            <Prices />
+            <RecommendedLinks />
           </Grid>
         </Grid>
       </main>
