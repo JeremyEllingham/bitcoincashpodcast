@@ -6,6 +6,9 @@ const CoinGeckoClient = new CoinGecko();
 const Prices = () => {
   const [mBchPerUsd, setMBchPerUsd] = useState(0)
   const [mBchPerGbp, setMBchPerGbp] = useState(0)
+  const [mBchPerEur, setMBchPerEur] = useState(0)
+  const [mBchPerCny, setMBchPerCny] = useState(0)
+  const [mBchPerAud, setMBchPerAud] = useState(0)
   
   useEffect(() => {
     const grabData = async () => {
@@ -20,6 +23,21 @@ const Prices = () => {
       const bchPerGbp = 1 / gbpPrice
       const calcMBchPerGbp = Number(bchPerGbp * 1000).toFixed(3)
       setMBchPerGbp(calcMBchPerGbp)
+
+      const eurPrice = data?.data?.market_data?.current_price?.eur
+      const bchPerEur = 1 / eurPrice
+      const calcMBchPerEur = Number(bchPerEur * 1000).toFixed(3)
+      setMBchPerEur(calcMBchPerEur)
+
+      const cnyPrice = data?.data?.market_data?.current_price?.cny
+      const bchPerCny = 1 / cnyPrice
+      const calcMBchPerCny = Number(bchPerCny * 1000).toFixed(3)
+      setMBchPerCny(calcMBchPerCny)
+
+      const audPrice = data?.data?.market_data?.current_price?.aud
+      const bchPerAud = 1 / audPrice
+      const calcMBchPerAud = Number(bchPerAud * 1000).toFixed(3)
+      setMBchPerAud(calcMBchPerAud)
     }
 
     grabData()
@@ -28,12 +46,12 @@ const Prices = () => {
   return (
     <div>
       <h2>Prices</h2>
-      <p>1 mBCH (milli Bitcoin Cash) = 0.001 BCH</p>
       <p>1 USD buys {mBchPerUsd}mBCH</p>
       <p>1 GBP buys {mBchPerGbp}mBCH</p>
-      <p>1 EUR buys {mBchPerUsd}mBCH</p>
-      <p>1 CNY buys {mBchPerUsd}mBCH</p>
-      <p>1 AUD buys {mBchPerUsd}mBCH</p>
+      <p>1 EUR buys {mBchPerEur}mBCH</p>
+      <p>1 CNY buys {mBchPerCny}mBCH</p>
+      <p>1 AUD buys {mBchPerAud}mBCH</p>
+      <p>1 mBCH (milli Bitcoin Cash) = 0.001 BCH</p>
     </div>
   )
 }
