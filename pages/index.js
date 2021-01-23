@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles2 from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
-import ReactPlayer from 'react-player/youtube'
 import RecommendedLink from '../components/RecommendedLink'
+import EpisodesList from '../components/EpisodesList'
 import recommendedLinks from './recommendedLinks'
 import styles from './styles'
 
@@ -59,10 +59,7 @@ const Home = () => {
           </Grid>
 
           <Grid item>
-            <h2>Episodes</h2>
-            <h3>#1: Whitepaper Whitewashing & History of The Flippening</h3>
-            <p>Friday, 22nd January 2021 - BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp</p>
-            <ReactPlayer url='https://www.youtube.com/watch?v=_uimCmw1m9E' />
+            <EpisodesList />
           </Grid>
         </Grid>
       </main>
