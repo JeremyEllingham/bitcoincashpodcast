@@ -58,6 +58,7 @@ const Prices = () => {
       <p>1 CNY buys {mBchPerCny} mBCH</p>
       <p>1 AUD buys {mBchPerAud} mBCH</p>
       <p>1 mBCH (milli Bitcoin Cash) = 0.001 BCH</p>
+      <p>Prices from <a href='https://www.coingecko.com/en' target='_blank'><u>CoinGecko</u></a></p>
     </div>
   )
 }
