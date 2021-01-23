@@ -81,6 +81,8 @@ const Home = () => {
 
         <p className={styles.description}>
           Following Bitcoin Cash on its rise to global reserve currency.
+          <br />
+          <a href='https://rss.com/podcasts/bitcoincashpodcast/' target='_blank'><u>RSS Feed</u></a> 
         </p>
 
         <Grid style={myStyles.container} container justify="center" spacing={2}>
