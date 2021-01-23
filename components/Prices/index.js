@@ -16,8 +16,6 @@ const Prices = () => {
     const grabData = async () => {
       const data = await CoinGeckoClient.coins.fetch('bitcoin-cash', {});
 
-      console.log('data?.data: ', data?.data)
-
       setSupply((data?.data?.market_data?.circulating_supply).toFixed(3))
 
       const bchBuysBtc = data?.data?.market_data?.current_price?.btc
