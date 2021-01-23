@@ -4,6 +4,7 @@ import CoinGecko from 'coingecko-api';
 const CoinGeckoClient = new CoinGecko();
 
 const Prices = () => {
+  const [supply, setSupply] = useState(0)
   const [bchPerBtc, setBchPerBtc] = useState(0)
   const [mBchPerUsd, setMBchPerUsd] = useState(0)
   const [mBchPerGbp, setMBchPerGbp] = useState(0)
@@ -14,6 +15,10 @@ const Prices = () => {
   useEffect(() => {
     const grabData = async () => {
       const data = await CoinGeckoClient.coins.fetch('bitcoin-cash', {});
+
+      console.log('data?.data: ', data?.data)
+
+      setSupply((data?.data?.market_data?.circulating_supply).toFixed(3))
 
       const bchBuysBtc = data?.data?.market_data?.current_price?.btc
       const calcBtcBuysBch = Number(1 / bchBuysBtc).toFixed(3)
@@ -51,6 +56,7 @@ const Prices = () => {
   return (
     <div>
       <h2>Prices</h2>
+      <p>{supply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} of 21,000,000 BCH</p>
       <p>1 BTC buys {bchPerBtc} BCH</p>
       <p>1 USD buys {mBchPerUsd} mBCH</p>
       <p>1 GBP buys {mBchPerGbp} mBCH</p>
