@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid'
 import EpisodesList from '../components/EpisodesList'
 import RecommendedLinks from '../components/RecommendedLinks'
 import Prices from '../components/Prices'
+import People from '../components/People'
 
 const styles = {
   container: {
@@ -40,7 +41,6 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles2.main}>
         <div style={styles.titleWrapper}>
           <img src="/banner.png" alt="BCH Logo" style={styles.logo} />
         </div>
@@ -71,16 +71,16 @@ const Home = () => {
         </p>
 
         <Grid style={styles.container} container justify="center" spacing={2}>
-          <Grid item lg={3}>
-            <Prices />
-            <RecommendedLinks />
-          </Grid>
-
           <Grid item>
             <EpisodesList />
           </Grid>
+
+          <Grid item lg={3}>
+            <Prices />
+            <RecommendedLinks />
+            <People />
+          </Grid>
         </Grid>
-      </main>
     </div>
   )
 }
