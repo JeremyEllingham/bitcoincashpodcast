@@ -42,7 +42,7 @@ const Home = () => {
     <div>
       <Head>
         <title>The Bitcoin Cash Podcast</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bch.ico" />
       </Head>
 
         <div style={styles.titleWrapper}>
