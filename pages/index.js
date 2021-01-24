@@ -12,7 +12,6 @@ const styles = {
     width: '100%',
     paddingLeft: 20,
     paddingRight: 20,
-    backgroundColor: 'red'
   },
   titleWrapper: {
     display: 'flex',
@@ -75,11 +74,11 @@ const Home = () => {
         </p>
 
         <Grid style={styles.gridContainer} container spacing={2}>
-          <Grid item>
-            <EpisodesList />
+          <Grid justify="center" item md={9} lg={9}>
+            <EpisodesList/>
           </Grid>
 
-          <Grid item lg={3}>
+          <Grid justify="center" item md={3} lg={3}>
             <Prices />
             <RecommendedLinks />
             <People />
