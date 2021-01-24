@@ -52,7 +52,7 @@ const Prices = () => {
   }, [])
 
   return (
-    <div>
+    <div style={{ textAlign: 'right' }}>
       <h2>Prices</h2>
       <p>{supply.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} of 21,000,000 BCH</p>
       <p>1 BTC buys {bchPerBtc} BCH</p>

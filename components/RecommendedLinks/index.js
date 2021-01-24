@@ -3,7 +3,7 @@ import RecommendedLink from '../RecommendedLink'
 import links from './links'
 
 const RecommendedLinks = () => (
-  <div>
+  <div style={{ textAlign: 'right' }}>
     <h2>
       Recommended
     </h2>
