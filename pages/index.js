@@ -79,9 +79,9 @@ const Home = () => {
           </Grid>
 
           <Grid justify="center" item md={3} lg={3}>
-            <Prices />
             <RecommendedLinks />
             <People />
+            <Prices />
           </Grid>
         </Grid>
     </div>
