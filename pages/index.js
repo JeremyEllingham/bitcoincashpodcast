@@ -7,8 +7,12 @@ import Prices from '../components/Prices'
 import People from '../components/People'
 
 const styles = {
-  container: {
-    flexGrow: 1,
+  gridContainer: {
+    flex: 1,
+    width: '100%',
+    paddingLeft: 20,
+    paddingRight: 20,
+    backgroundColor: 'red'
   },
   titleWrapper: {
     display: 'flex',
@@ -70,7 +74,7 @@ const Home = () => {
           </a>
         </p>
 
-        <Grid style={styles.container} container justify="center" spacing={2}>
+        <Grid style={styles.gridContainer} container spacing={2}>
           <Grid item>
             <EpisodesList />
           </Grid>
