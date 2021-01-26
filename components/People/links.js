@@ -13,6 +13,11 @@ const links = [
     url: "https://www.youtube.com/watch?v=2LMeayn2-0M",
     title: 'Jettia',
     description: 'BCH Dev.'
+  }, 
+  {
+    url: "https://www.youtube.com/channel/UCeMLefUb2ibi5daPfKX4W7w",
+    title: 'Bitcoin Kid',
+    description: 'Educational Youtuber.'
   }
 ]
 
