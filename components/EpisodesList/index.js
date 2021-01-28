@@ -18,7 +18,16 @@ const EpisodesList = () => (
     <div style={styles.container}>
       <h3>#2: Grassroots adoption & Wall Street vs /r/wallstreetbets</h3>
       <p>Thursday, 28th January 2021 - BCH: bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye</p>
-      <a href="/mp3/TheBitcoinCashPodcastEp2.mp3"><u>Episode #2: Direct link to downloadable .mp3 file</u></a>
+      <a 
+        href="/mp3/TheBitcoinCashPodcastEp2.mp3"
+        target="_blank"
+      ><u>Episode #2: Direct link to downloadable .mp3 file</u></a>
+      <a 
+        href="https://docs.google.com/presentation/d/1wshYxnpvvBe_e4PnzNIEQwVCSCi8AAzldGyuHQNfLB8/edit?usp=sharing" 
+        target="_blank"
+      >
+        <u>Slide deck</u>
+      </a>
       <ReactPlayer 
         style={styles.player} 
         url='https://www.youtube.com/watch?v=_uimCmw1m9E' 
