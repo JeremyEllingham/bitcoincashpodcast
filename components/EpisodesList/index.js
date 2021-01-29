@@ -16,7 +16,7 @@ const styles = {
 const EpisodesList = () => (
   <div>
     <div style={styles.container}>
-      <h3>#2: Grassroots adoption & Wall Street vs /r/wallstreetbets</h3>
+      <h3>#2: Grassroots adoption & /r/wallstreetbets vs Wall Street</h3>
       <p>Thursday, 28th January 2021 - BCH: bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye</p>
       <a 
         href="/mp3/TheBitcoinCashPodcastEp2.mp3"
