@@ -21,7 +21,8 @@ const EpisodesList = () => (
       <a 
         href="/mp3/TheBitcoinCashPodcastEp2.mp3"
         target="_blank"
-      ><u>Episode #2: Direct link to downloadable .mp3 file</u></a>
+      ><u>Downloadable .mp3</u>
+      </a>
       <a 
         href="https://docs.google.com/presentation/d/1wshYxnpvvBe_e4PnzNIEQwVCSCi8AAzldGyuHQNfLB8/edit?usp=sharing" 
         target="_blank"
@@ -38,7 +39,14 @@ const EpisodesList = () => (
     <div style={styles.container}>
       <h3>#1: Whitepaper Whitewashing & History of The Flippening</h3>
       <p>Friday, 22nd January 2021 - BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp</p>
-      <a href="/mp3/TheBitcoinCashPodcastEp1.mp3"><u>Episode #1: Direct link to downloadable .mp3 file</u></a>
+      <a 
+        href="/mp3/TheBitcoinCashPodcastEp1.mp3"
+        target="_blank"
+      >
+        <u>
+          Downloadable .mp3
+        </u>
+      </a>
       <ReactPlayer 
         style={styles.player} 
         url='https://www.youtube.com/watch?v=_uimCmw1m9E' 

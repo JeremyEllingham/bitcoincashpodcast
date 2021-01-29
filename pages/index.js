@@ -68,7 +68,7 @@ const Home = () => {
             target='_blank'
           >
             <u>
-              Noise.cash
+              Read.cash
             </u>
           </a>
         </p>
