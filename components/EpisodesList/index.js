@@ -31,7 +31,7 @@ const EpisodesList = () => (
       </a>
       <ReactPlayer 
         style={styles.player} 
-        url='https://www.youtube.com/watch?v=_uimCmw1m9E' 
+        url='https://www.youtube.com/watch?v=voVS2omxMek' 
         target="_blank"
       />
     </div>
