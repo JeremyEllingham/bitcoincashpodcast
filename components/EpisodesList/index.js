@@ -17,7 +17,7 @@ const EpisodesList = () => (
   <div>
     <div style={styles.container}>
       <h3>#2: Grassroots adoption & /r/wallstreetbets vs Wall Street</h3>
-      <p>Thursday, 28th January 2021 - BCH: bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye</p>
+      <p>Thursday, 28th January 2021 - bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye</p>
       <a 
         href="/mp3/TheBitcoinCashPodcastEp2.mp3"
         target="_blank"
@@ -38,7 +38,7 @@ const EpisodesList = () => (
     <hr />
     <div style={styles.container}>
       <h3>#1: Whitepaper Whitewashing & History of The Flippening</h3>
-      <p>Friday, 22nd January 2021 - BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp</p>
+      <p>Friday, 22nd January 2021 - bitcoincash:qq0u3gej2rw9elpe42pp4cy25qknh2r0fvgfnpv7qm</p>
       <a 
         href="/mp3/TheBitcoinCashPodcastEp1.mp3"
         target="_blank"
