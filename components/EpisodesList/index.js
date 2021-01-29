@@ -40,7 +40,7 @@ const EpisodesList = () => (
       <h3>#1: Whitepaper Whitewashing & History of The Flippening</h3>
       <p>Friday, 22nd January 2021 - bitcoincash:qq0u3gej2rw9elpe42pp4cy25qknh2r0fvgfnpv7qm</p>
       <a 
-        href="/mp3/TheBitcoinCashPodcastEp1.mp3"
+        href="https://drive.google.com/file/d/1b_Ra-IX1Lxt6X4doRVeLnxOogsaLwl1a/view?usp=sharing"
         target="_blank"
       >
         <u>
