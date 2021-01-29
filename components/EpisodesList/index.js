@@ -19,7 +19,7 @@ const EpisodesList = () => (
       <h3>#2: Grassroots adoption & /r/wallstreetbets vs Wall Street</h3>
       <p>Thursday, 28th January 2021 - bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye</p>
       <a 
-        href="/mp3/TheBitcoinCashPodcastEp2.mp3"
+        href="https://drive.google.com/file/d/1H4Hx3hGGA7iDQj5YluuC9sKGGNPUYmTM/view?usp=sharing"
         target="_blank"
       ><u>Downloadable .mp3</u>
       </a>
