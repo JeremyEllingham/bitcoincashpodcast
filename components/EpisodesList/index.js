@@ -36,9 +36,9 @@ const episodes = [
     title: 'Elon Musk hypes Bitcoin & Crypto Convert Q&A',
     date: 'Saturday, 30th January 2021',
     bchAddress: 'bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye',
-    mp3: "",
+    mp3: "https://drive.google.com/file/d/1ml9J4zMKoU8ogvGvgN5l2cDq3eO0jTgo/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1BpjPtjRl15VQ2ETqFG20ACtNu0lar3aXs5diLCsdIGc/edit?usp=sharing",
-    youtube: '',
+    youtube: 'https://youtu.be/6ZB9Oa2TUjk',
   }
 ]
 
