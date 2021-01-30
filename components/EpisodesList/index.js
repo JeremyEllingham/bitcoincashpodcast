@@ -15,6 +15,14 @@ const styles = {
 
 const episodes = [
   {
+    id: 1,
+    title: 'Whitepaper Whitewashing & History of The Flippening',
+    date: 'Friday, 22nd January 2021',
+    bchAddress: 'bitcoincash:qq0u3gej2rw9elpe42pp4cy25qknh2r0fvgfnpv7qm',
+    mp3: "https://drive.google.com/file/d/1b_Ra-IX1Lxt6X4doRVeLnxOogsaLwl1a/view?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=_uimCmw1m9E' 
+  },
+  {
     id: 2,
     title: 'Grassroots adoption & /r/wallstreetbets vs Wall Street',
     date: 'Thursday, 28th January 2021',
@@ -32,17 +40,17 @@ const EpisodesList = () => (
         <div style={styles.container}>
           <h3>#{id}: {title}</h3>
           <p>{date} - {bchAddress}</p>
-          <a 
+          {!!mp3 && <a 
             href={mp3}
             target="_blank"
           ><u>Downloadable .mp3</u>
-          </a>
-          <a 
+          </a>}
+          {!!slideDeck && <a 
             href={slideDeck}
             target="_blank"
           >
             <u>Slide deck</u>
-          </a>
+          </a>}
           <ReactPlayer 
             style={styles.player} 
             url={youtube}
@@ -52,24 +60,6 @@ const EpisodesList = () => (
         <hr />
       </div>
     ))}
-    
-    <div style={styles.container}>
-      <h3>#1: Whitepaper Whitewashing & History of The Flippening</h3>
-      <p>Friday, 22nd January 2021 - bitcoincash:qq0u3gej2rw9elpe42pp4cy25qknh2r0fvgfnpv7qm</p>
-      <a 
-        href="https://drive.google.com/file/d/1b_Ra-IX1Lxt6X4doRVeLnxOogsaLwl1a/view?usp=sharing"
-        target="_blank"
-      >
-        <u>
-          Downloadable .mp3
-        </u>
-      </a>
-      <ReactPlayer 
-        style={styles.player} 
-        url='https://www.youtube.com/watch?v=_uimCmw1m9E' 
-        target="_blank"
-      />
-    </div>
   </div>
 )
 
