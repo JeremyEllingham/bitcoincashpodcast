@@ -38,7 +38,7 @@ const episodes = [
     bchAddress: 'bitcoincash:qzm49092tapkkuzvlr2q5hkv0un6rucq4vvspptszt',
     mp3: "https://drive.google.com/file/d/1ml9J4zMKoU8ogvGvgN5l2cDq3eO0jTgo/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1BpjPtjRl15VQ2ETqFG20ACtNu0lar3aXs5diLCsdIGc/edit?usp=sharing",
-    youtube: 'https://youtu.be/6ZB9Oa2TUjk',
+    youtube: 'https://www.youtube.com/watch?v=6ZB9Oa2TUjk',
   }
 ]
 
