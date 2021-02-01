@@ -25,6 +25,11 @@ const links = [
       description: ' Discuss or keep up with the Bitcoin Cash community.',
     },
     {
+      url: 'https://www.youtube.com/watch?v=jctc85X_PCI&feature=emb_title',
+      title: 'We Are All Satoshi',
+      description: "Rick Falkvinge discusses Blocksteam's influence in BTC.",
+    },
+    {
       url: 'https://nakamotoinstitute.org/mempool/',
       title: 'Nakamoto Institute Mempool',
       description: 'Read up on some big picture Bitcoin theory.',
@@ -33,6 +38,11 @@ const links = [
       url: 'https://99bitcoins.com/bitcoin-obituaries/',
       title: 'Bitcoin Obituaries',
       description: 'Declared dead 350+ times for over 10 years. RIP the haters.',
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=HggepmwdIBI',
+      title: 'BCH Network Discussions',
+      description: 'Keep an eye on what BCH development is happening.',
     }
   ]
 
