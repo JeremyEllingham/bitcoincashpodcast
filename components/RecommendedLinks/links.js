@@ -30,6 +30,11 @@ const links = [
       description: "Rick Falkvinge discusses Blocksteam's influence in BTC.",
     },
     {
+      url: 'https://www.youtube.com/watch?v=CsCsxUM1y_w',
+      title: 'Blockworks',
+      description: "Charlie Shrem talks about the cryptocurrency space.",
+    },
+    {
       url: 'https://nakamotoinstitute.org/mempool/',
       title: 'Nakamoto Institute Mempool',
       description: 'Read up on some big picture Bitcoin theory.',
