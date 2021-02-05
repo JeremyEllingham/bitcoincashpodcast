@@ -3,6 +3,11 @@ const links = [
       url: "https://www.bitcoin.com/bitcoin.pdf",
       title: 'The Bitcoin Whitepaper',
       description: 'By Satoshi Nakamoto. Read it.'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=iFDe5kUUyT0',
+      title: 'The Biggest Scam In The History Of Mankind',
+      description: 'Mike Maloney explains the US dollar system.',
     }, 
     {
       url: "https://www.youtube.com/watch?v=-jUsSEOqZME&feature=emb_title",
@@ -48,11 +53,6 @@ const links = [
       url: 'https://www.youtube.com/watch?v=CsCsxUM1y_w',
       title: 'Blockworks',
       description: "Charlie Shrem talks about the cryptocurrency space.",
-    },
-    {
-      url: 'https://www.youtube.com/watch?v=iFDe5kUUyT0',
-      title: 'The Biggest Scam In The History Of Mankind',
-      description: 'Mike Maloney explains the US dollar system.',
     },
     {
       url: 'https://nakamotoinstitute.org/mempool/',
