@@ -23,7 +23,7 @@ const links = [
       url: "https://whycryptocurrencies.com/",
       title: 'Why Cryptocurrencies',
       description: 'What they are, what they do and why they matter.'
-    },,
+    },
     {
       url: "https://read.cash/@CuriousTitmouse/history-of-rbitcoin-622951af",
       title: 'History of /r/Bitcoin',
@@ -35,6 +35,11 @@ const links = [
       description: ' Discuss or keep up with the Bitcoin Cash community.',
     },
     {
+      url: "https://www.youtube.com/watch?v=mvcZNSwQlRU",
+      title: 'A Quality Game Of Poker',
+      description: 'Kim Dotcom talks to BTC Core supporters about Bitcoin.'
+    },
+    {
       url: 'https://www.youtube.com/watch?v=jctc85X_PCI&feature=emb_title',
       title: 'We Are All Satoshi',
       description: "Rick Falkvinge discusses Blocksteam's influence in BTC.",
@@ -43,6 +48,11 @@ const links = [
       url: 'https://www.youtube.com/watch?v=CsCsxUM1y_w',
       title: 'Blockworks',
       description: "Charlie Shrem talks about the cryptocurrency space.",
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=iFDe5kUUyT0',
+      title: 'The Biggest Scam In The History Of Mankind',
+      description: 'Mike Maloney explains the US dollar system.',
     },
     {
       url: 'https://nakamotoinstitute.org/mempool/',
