@@ -20,6 +20,11 @@ const links = [
       description: 'Keep up on the latest Bitcoin Cash stats.',
     },
     {
+      url: "https://whycryptocurrencies.com/",
+      title: 'Why Cryptocurrencies',
+      description: 'What they are, what they do and why they matter.'
+    },,
+    {
       url: "https://read.cash/@CuriousTitmouse/history-of-rbitcoin-622951af",
       title: 'History of /r/Bitcoin',
       description: 'Detailed discussion of lead up to the BCH <> BTC fork.'
