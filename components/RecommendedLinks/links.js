@@ -12,7 +12,7 @@ const links = [
     {
       url: "https://www.youtube.com/watch?v=-jUsSEOqZME&feature=emb_title",
       title: '10 Years of Bitcoin',
-      description: 'Hayden Otto explains in a 1 hour talk how it all came to be, Bitcoin Cash vs Bitcoin etc.'
+      description: 'Hayden Otto explains in a 1 hour talk the origins of Bitcoin, Bitcoin Cash vs Bitcoin etc.'
     },
     {
       url: 'https://txstreet.com/v/bch-btc',
