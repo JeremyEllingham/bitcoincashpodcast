@@ -4,7 +4,7 @@
         <title>The Bitcoin Cash Podcast</title>
         <link>https://www.bitcoincashpodcast.com</link>
         <description>Following Bitcoin Cash on its rise to global reserve currency.</description>
-        <lastBuildDate>Sat, 06 Feb 2021 20:16:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Feb 2021 20:21:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -15,12 +15,28 @@
         </image>
         <copyright>All rights reserved 2021, Jeremy</copyright>
         <item>
-            <title><![CDATA[first title]]></title>
-            <link>myurl.com</link>
-            <guid>myurl.com</guid>
-            <pubDate>Sat, 06 Feb 2021 20:16:44 GMT</pubDate>
-            <description><![CDATA[description 1]]></description>
-            <content:encoded><![CDATA[content here]]></content:encoded>
+            <title><![CDATA[Whitepaper Whitewashing & History of The Flippening]]></title>
+            <link>https://drive.google.com/file/d/1b_Ra-IX1Lxt6X4doRVeLnxOogsaLwl1a/view?usp=sharing</link>
+            <guid>https://drive.google.com/file/d/1b_Ra-IX1Lxt6X4doRVeLnxOogsaLwl1a/view?usp=sharing</guid>
+            <pubDate>Sat, 06 Feb 2021 20:21:03 GMT</pubDate>
+            <description><![CDATA[bitcoincash:qq0u3gej2rw9elpe42pp4cy25qknh2r0fvgfnpv7qm]]></description>
+            <content:encoded><![CDATA[Whitepaper Whitewashing & History of The Flippening]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Grassroots adoption & /r/wallstreetbets vs Wall Street]]></title>
+            <link>https://drive.google.com/file/d/1H4Hx3hGGA7iDQj5YluuC9sKGGNPUYmTM/view?usp=sharing</link>
+            <guid>https://drive.google.com/file/d/1H4Hx3hGGA7iDQj5YluuC9sKGGNPUYmTM/view?usp=sharing</guid>
+            <pubDate>Sat, 06 Feb 2021 20:21:03 GMT</pubDate>
+            <description><![CDATA[bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye]]></description>
+            <content:encoded><![CDATA[Grassroots adoption & /r/wallstreetbets vs Wall Street]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Elon Musk hypes Bitcoin & Crypto Convert Q&A]]></title>
+            <link>https://drive.google.com/file/d/1ml9J4zMKoU8ogvGvgN5l2cDq3eO0jTgo/view?usp=sharing</link>
+            <guid>https://drive.google.com/file/d/1ml9J4zMKoU8ogvGvgN5l2cDq3eO0jTgo/view?usp=sharing</guid>
+            <pubDate>Sat, 06 Feb 2021 20:21:03 GMT</pubDate>
+            <description><![CDATA[bitcoincash:qzm49092tapkkuzvlr2q5hkv0un6rucq4vvspptszt]]></description>
+            <content:encoded><![CDATA[Elon Musk hypes Bitcoin & Crypto Convert Q&A]]></content:encoded>
         </item>
     </channel>
 </rss>
