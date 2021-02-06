@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.bitcoincashpodcast.com</id>
     <title>The Bitcoin Cash Podcast</title>
-    <updated>2021-02-06T20:05:43.006Z</updated>
+    <updated>2021-02-06T20:16:44.242Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jeremy</name>
@@ -17,7 +17,7 @@
         <title type="html"><![CDATA[first title]]></title>
         <id>myurl.com</id>
         <link href="myurl.com"/>
-        <updated>2021-02-06T20:05:43.006Z</updated>
+        <updated>2021-02-06T20:16:44.243Z</updated>
         <summary type="html"><![CDATA[description 1]]></summary>
         <content type="html"><![CDATA[content here]]></content>
         <author>
