@@ -2,7 +2,7 @@ const links = [
   {
     url: "https://twitter.com/rogerkver",
     title: 'Roger Ver',
-    description: 'aka Bitcoin Jesus.'
+    description: "World's first investor in Bitcoin businesses."
   }, 
   {
     url: "https://twitter.com/MarcDeMesel",
