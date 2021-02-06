@@ -58,7 +58,16 @@ const Home = () => {
           <br />
           <a 
             style={styles.link} 
-            href='https://rss.com/podcasts/bitcoincashpodcast/' 
+            href='https://read.cash/@BitcoinCashPodcast' 
+            target='_blank'
+          >
+            <u>
+              Read.cash
+            </u>
+          </a>
+          <a 
+            style={styles.link} 
+            href='https://bitcoincashpodcast.com/rss.xml' 
             target='_blank'
           >
             <u>
@@ -67,13 +76,22 @@ const Home = () => {
           </a> 
           <a 
             style={styles.link} 
-            href='https://read.cash/@BitcoinCashPodcast' 
+            href='https://bitcoincashpodcast.com/atom.xml' 
             target='_blank'
           >
             <u>
-              Read.cash
+              Atom Feed
             </u>
           </a>
+          <a 
+            style={styles.link} 
+            href='https://bitcoincashpodcast.com/feed.json' 
+            target='_blank'
+          >
+            <u>
+              JSON Feed
+            </u>
+          </a> 
         </p>
 
         <Grid style={styles.gridContainer} container spacing={2}>
