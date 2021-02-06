@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.bitcoincashpodcast.com</id>
+    <title>The Bitcoin Cash Podcast</title>
+    <updated>2021-02-06T19:59:27.191Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Jeremy</name>
+    </author>
+    <link rel="alternate" href="https://www.bitcoincashpodcast.com"/>
+    <link rel="self" href="https://www.bitcoincashpodcast.com/atom"/>
+    <subtitle>Following Bitcoin Cash on its rise to global reserve currency.</subtitle>
+    <logo>https://www.bitcoincashpodcast.com/banner.png</logo>
+    <icon>https://www.bitcoincashpodcast.com/bch.ico</icon>
+    <rights>All rights reserved 2021, Jeremy</rights>
+    <entry>
+        <title type="html"><![CDATA[first title]]></title>
+        <id>myurl.com</id>
+        <link href="myurl.com"/>
+        <updated>2021-02-06T19:59:27.191Z</updated>
+        <summary type="html"><![CDATA[description 1]]></summary>
+        <content type="html"><![CDATA[content here]]></content>
+        <author>
+            <name>Jeremy</name>
+        </author>
+    </entry>
+</feed>

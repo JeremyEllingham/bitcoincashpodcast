@@ -1,0 +1,24 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "The Bitcoin Cash Podcast",
+    "home_page_url": "https://www.bitcoincashpodcast.com",
+    "feed_url": "https://www.bitcoincashpodcast.com/json",
+    "description": "Following Bitcoin Cash on its rise to global reserve currency.",
+    "icon": "https://www.bitcoincashpodcast.com/banner.png",
+    "author": {
+        "name": "Jeremy"
+    },
+    "items": [
+        {
+            "id": "myurl.com",
+            "content_html": "content here",
+            "url": "myurl.com",
+            "title": "first title",
+            "summary": "description 1",
+            "date_modified": "2021-02-06T19:59:27.191Z",
+            "author": {
+                "name": "Jeremy"
+            }
+        }
+    ]
+}

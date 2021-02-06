@@ -4,7 +4,7 @@
         <title>The Bitcoin Cash Podcast</title>
         <link>https://www.bitcoincashpodcast.com</link>
         <description>Following Bitcoin Cash on its rise to global reserve currency.</description>
-        <lastBuildDate>Sat, 06 Feb 2021 19:57:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Feb 2021 19:59:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -18,7 +18,7 @@
             <title><![CDATA[first title]]></title>
             <link>myurl.com</link>
             <guid>myurl.com</guid>
-            <pubDate>Sat, 06 Feb 2021 19:57:14 GMT</pubDate>
+            <pubDate>Sat, 06 Feb 2021 19:59:27 GMT</pubDate>
             <description><![CDATA[description 1]]></description>
             <content:encoded><![CDATA[content here]]></content:encoded>
         </item>
