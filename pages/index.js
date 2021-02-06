@@ -5,6 +5,7 @@ import EpisodesList from '../components/EpisodesList'
 import RecommendedLinks from '../components/RecommendedLinks'
 import Prices from '../components/Prices'
 import People from '../components/People'
+import generateRssFeed from '../lib/rss'
 
 const styles = {
   gridContainer: {
@@ -86,6 +87,13 @@ const Home = () => {
         </Grid>
     </div>
   )
+}
+
+export async function getStaticProps() {
+  await generateRssFeed();
+  return {
+    props: {}
+  }
 }
 
 export default Home
