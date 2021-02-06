@@ -50,6 +50,11 @@ const links = [
       description: 'Kim Dotcom talks to BTC Core supporters about Bitcoin.'
     },
     {
+      url: "https://www.youtube.com/watch?v=8KKiTd-3uNI",
+      title: 'Monetary Fundamentals with Jeffrey Tucker',
+      description: 'Jeffrey Tucker talks about cryptocurrency and sound money.'
+    },
+    {
       url: 'https://www.youtube.com/watch?v=jctc85X_PCI&feature=emb_title',
       title: 'We Are All Satoshi',
       description: "Rick Falkvinge discusses Blocksteam's influence in BTC.",
