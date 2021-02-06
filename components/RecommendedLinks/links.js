@@ -30,6 +30,11 @@ const links = [
       description: 'What they are, what they do and why they matter.'
     },
     {
+      url: "https://falkvinge.net/wp-content/uploads/2017/11/letter-from-the-ceo.pdf",
+      title: 'Letter From The CEO',
+      description: 'Rick Falkvinge outlines a strategy for the BCH community.'
+    },
+    {
       url: "https://read.cash/@CuriousTitmouse/history-of-rbitcoin-622951af",
       title: 'History of /r/Bitcoin',
       description: 'Detailed discussion of lead up to the BCH <> BTC fork.'
