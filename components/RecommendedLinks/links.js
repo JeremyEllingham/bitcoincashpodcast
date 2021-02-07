@@ -25,6 +25,11 @@ const links = [
       description: 'Keep up on the latest Bitcoin Cash stats.',
     },
     {
+      url: "https://www.youtube.com/watch?v=zR4IOP4RBBs",
+      title: 'They Lie',
+      description: 'Hayden Otto discovers some special crypto sunglasses.'
+    },
+    {
       url: "https://whycryptocurrencies.com/",
       title: 'Why Cryptocurrencies',
       description: 'What they are, what they do and why they matter.'
