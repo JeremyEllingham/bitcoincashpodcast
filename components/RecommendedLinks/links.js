@@ -25,11 +25,6 @@ const links = [
       description: 'Keep up on the latest Bitcoin Cash stats.',
     },
     {
-      url: "https://www.youtube.com/watch?v=zR4IOP4RBBs",
-      title: 'They Lie',
-      description: 'Hayden Otto discovers some special crypto sunglasses.'
-    },
-    {
       url: "https://whycryptocurrencies.com/",
       title: 'Why Cryptocurrencies',
       description: 'What they are, what they do and why they matter.'
@@ -38,11 +33,6 @@ const links = [
       url: "https://falkvinge.net/wp-content/uploads/2017/11/letter-from-the-ceo.pdf",
       title: 'Letter From The CEO',
       description: 'Rick Falkvinge outlines a strategy for the BCH community.'
-    },
-    {
-      url: "https://read.cash/@CuriousTitmouse/history-of-rbitcoin-622951af",
-      title: 'History of /r/Bitcoin',
-      description: 'Detailed discussion of lead up to the BCH <> BTC fork.'
     },
     {
       url: 'https://reddit.com/r/btc',
@@ -55,9 +45,19 @@ const links = [
       description: 'Kim Dotcom talks to BTC Core supporters about Bitcoin.'
     },
     {
+      url: "https://read.cash/@CuriousTitmouse/history-of-rbitcoin-622951af",
+      title: 'History of /r/Bitcoin',
+      description: 'Detailed discussion of lead up to the BCH <> BTC fork.'
+    },
+    {
       url: "https://www.youtube.com/watch?v=8KKiTd-3uNI",
       title: 'Monetary Fundamentals with Jeffrey Tucker',
       description: 'Jeffrey Tucker talks about cryptocurrency and sound money.'
+    },
+    {
+      url: "https://www.youtube.com/watch?v=zR4IOP4RBBs",
+      title: 'They Lie',
+      description: 'Hayden Otto discovers some special crypto sunglasses.'
     },
     {
       url: 'https://www.youtube.com/watch?v=jctc85X_PCI&feature=emb_title',
