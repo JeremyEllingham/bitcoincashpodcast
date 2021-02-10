@@ -4,7 +4,7 @@
         <title>The Bitcoin Cash Podcast</title>
         <link>https://www.bitcoincashpodcast.com</link>
         <description>Following Bitcoin Cash on its rise to global reserve currency.</description>
-        <lastBuildDate>Sun, 07 Feb 2021 21:37:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Feb 2021 23:38:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -44,6 +44,14 @@
             <guid>https://drive.google.com/file/d/1W9cy6mfDvuRCsWgImO2oTvnKbQcAeTsC/view?usp=sharing</guid>
             <pubDate>Sun, 07 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[bitcoincash:qzkkzt34vdmf6rm98ndhhuf5l5d038jp25l7trwrl6]]></description>
+            <content:encoded><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></title>
+            <link>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</link>
+            <guid>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</guid>
+            <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[bitcoincash:qre8lu4lasfn9kaxgaayhslh6wz2hvqtpvl2tgf75l]]></description>
             <content:encoded><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></content:encoded>
         </item>
     </channel>
