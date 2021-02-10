@@ -39,6 +39,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1W9cy6mfDvuRCsWgImO2oTvnKbQcAeTsC/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1XfZypaYYnkm74CNvkknhLx6BSVIWwY6fO5Pm110wCRI/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=2nC9xMLyPg4',
+  },
+  {
+    id: 5,
+    title: 'Community Debate & Bitcoin Cash vs Bitcoin',
+    date: 'Wednesday, 10th February 2021',
+    dateRSS: new Date(2021, 10, 7),
+    bchAddress: 'bitcoincash:qre8lu4lasfn9kaxgaayhslh6wz2hvqtpvl2tgf75l',
+    mp3: "https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1ebXNt-6AucTufG2xAW4L3j4jsLfORArH4j0Y23aAdDg/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=AEpQIEEcTUI',
   }
 ]
 
