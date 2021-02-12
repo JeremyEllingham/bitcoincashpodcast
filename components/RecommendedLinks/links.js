@@ -45,6 +45,11 @@ const links = [
       description: 'Kim Dotcom talks to BTC Core supporters about Bitcoin.'
     },
     {
+      url: 'https://whybitcoincash.com/',
+      title: 'Why Bitcoin Cash',
+      description: "BCH vs BTC informational website.",
+    },
+    {
       url: "https://read.cash/@CuriousTitmouse/history-of-rbitcoin-622951af",
       title: 'History of /r/Bitcoin',
       description: 'Detailed discussion of lead up to the BCH <> BTC fork.'

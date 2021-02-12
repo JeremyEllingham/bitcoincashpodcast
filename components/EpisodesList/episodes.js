@@ -49,7 +49,7 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1ebXNt-6AucTufG2xAW4L3j4jsLfORArH4j0Y23aAdDg/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=AEpQIEEcTUI',
-  }
+  },
 ]
 
 export default episodes
