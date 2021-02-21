@@ -44,12 +44,22 @@ const episodes = [
     id: 5,
     title: 'Community Debate & Bitcoin Cash vs Bitcoin',
     date: 'Wednesday, 10th February 2021',
-    dateRSS: new Date(2021, 10, 7),
+    dateRSS: new Date(2021, 1, 10),
     bchAddress: 'bitcoincash:qre8lu4lasfn9kaxgaayhslh6wz2hvqtpvl2tgf75l',
     mp3: "https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1ebXNt-6AucTufG2xAW4L3j4jsLfORArH4j0Y23aAdDg/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=AEpQIEEcTUI',
   },
+  {
+    id: 6,
+    title: 'Transaction Flippening & How Adoption Happens',
+    date: 'Sunday, 21st February 2021',
+    dateRSS: new Date(2021, 1, 21),
+    bchAddress: 'bitcoincash:qq9tztlr2cqnx5m4plvsm93kjl3kv003dgg6suppj6',
+    mp3: "https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1GA7bCSuxIK_Ss3jL7I3Piu2Xx7KkBkdD3zofATWBUnc/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=AEpQIEEcTUI',
+  }
 ]
 
 export default episodes
