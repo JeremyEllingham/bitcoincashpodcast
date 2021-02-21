@@ -4,7 +4,7 @@
         <title>The Bitcoin Cash Podcast</title>
         <link>https://www.bitcoincashpodcast.com</link>
         <description>Following Bitcoin Cash on its rise to global reserve currency.</description>
-        <lastBuildDate>Wed, 10 Feb 2021 23:40:19 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Feb 2021 18:47:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -50,9 +50,17 @@
             <title><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></title>
             <link>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</link>
             <guid>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</guid>
-            <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[bitcoincash:qre8lu4lasfn9kaxgaayhslh6wz2hvqtpvl2tgf75l]]></description>
             <content:encoded><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Transaction Flippening & How Adoption Happens]]></title>
+            <link>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</link>
+            <guid>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</guid>
+            <pubDate>Sun, 21 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[bitcoincash:qq9tztlr2cqnx5m4plvsm93kjl3kv003dgg6suppj6]]></description>
+            <content:encoded><![CDATA[Transaction Flippening & How Adoption Happens]]></content:encoded>
         </item>
     </channel>
 </rss>

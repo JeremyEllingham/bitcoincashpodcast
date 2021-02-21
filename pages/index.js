@@ -4,6 +4,7 @@ import Head from 'next/head'
 import styles2 from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
 import EpisodesList from '../components/EpisodesList'
+import PlatformsLinks from '../components/PlatformsLinks'
 import RecommendedLinks from '../components/RecommendedLinks'
 import Prices from '../components/Prices'
 import People from '../components/People'
@@ -58,15 +59,6 @@ const Home = () => {
           <br />
           <a 
             style={styles.link} 
-            href='https://read.cash/@BitcoinCashPodcast' 
-            target='_blank'
-          >
-            <u>
-              Read.cash
-            </u>
-          </a>
-          <a 
-            style={styles.link} 
             href='https://bitcoincashpodcast.com/rss.xml' 
             target='_blank'
           >
@@ -100,6 +92,7 @@ const Home = () => {
           </Grid>
 
           <Grid justify="center" item md={3} lg={3}>
+            <PlatformsLinks />
             <RecommendedLinks />
             <People />
             <Prices />
