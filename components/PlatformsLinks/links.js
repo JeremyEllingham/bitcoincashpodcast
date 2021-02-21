@@ -14,6 +14,11 @@ const links = [
     title: 'Read.cash',
     description: "BCH blogging platform."
   },
+  {
+    url: "https://noise.cash/u/TheBitcoinCashPodcast",
+    title: 'Noise.cash',
+    description: "BCH Twitter."
+  },
 ]
 
 export default links
