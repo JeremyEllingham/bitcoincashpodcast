@@ -10,6 +10,11 @@ const links = [
     description: 'Videos.'
   },
   {
+    url: "https://www.twitch.tv/thebitcoincashpodcast",
+    title: 'Twitch.tv',
+    description: 'Live streams.'
+  },
+  {
     url: "https://read.cash/@BitcoinCashPodcast",
     title: 'Read.cash',
     description: "BCH blogging platform."
