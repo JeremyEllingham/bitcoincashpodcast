@@ -66,7 +66,7 @@ const Home = () => {
               RSS Feed
             </u>
           </a> 
-          <a 
+          {/* <a 
             style={styles.link} 
             href='https://bitcoincashpodcast.com/atom.xml' 
             target='_blank'
@@ -83,7 +83,7 @@ const Home = () => {
             <u>
               JSON Feed
             </u>
-          </a> 
+          </a>  */}
         </p>
 
         <Grid style={styles.gridContainer} container spacing={2}>
@@ -103,12 +103,12 @@ const Home = () => {
 }
 
 export async function getStaticProps() {
-  const feeds = await generateRssFeed();
-  const { rss, atom, json } = feeds
+  // const feeds = await generateRssFeed();
+  // const { rss, atom, json } = feeds
 
-  fs.writeFileSync('./public/rss.xml', rss)
-  fs.writeFileSync('./public/atom.xml', atom);
-  fs.writeFileSync('./public/feed.json', json);
+  // fs.writeFileSync('./public/rss.xml', rss)
+  // fs.writeFileSync('./public/atom.xml', atom);
+  // fs.writeFileSync('./public/feed.json', json);
 
   return {
     props: {}
