@@ -1,66 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-    <channel>
-        <title>The Bitcoin Cash Podcast</title>
-        <link>https://www.bitcoincashpodcast.com</link>
-        <description>Following Bitcoin Cash on its rise to global reserve currency.</description>
-        <lastBuildDate>Sun, 21 Feb 2021 21:45:34 GMT</lastBuildDate>
-        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-        <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
-        <image>
-            <title>The Bitcoin Cash Podcast</title>
-            <url>https://www.bitcoincashpodcast.com/banner.png</url>
-            <link>https://www.bitcoincashpodcast.com</link>
-        </image>
-        <copyright>All rights reserved 2021, Jeremy</copyright>
-        <item>
-            <title><![CDATA[Transaction Flippening & How Adoption Happens]]></title>
-            <link>https://drive.google.com/file/d/1zBdbPFPjW5YJlSn5RwS1PaQSOPs_0ylo/view?usp=sharing</link>
-            <guid>https://drive.google.com/file/d/1zBdbPFPjW5YJlSn5RwS1PaQSOPs_0ylo/view?usp=sharing</guid>
-            <pubDate>Sun, 21 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[bitcoincash:qq9tztlr2cqnx5m4plvsm93kjl3kv003dgg6suppj6]]></description>
-            <content:encoded><![CDATA[Transaction Flippening & How Adoption Happens]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></title>
-            <link>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</link>
-            <guid>https://drive.google.com/file/d/1HbMum9RvhoetM5Z1xvWLto2e0LOmNVF9/view?usp=sharing</guid>
-            <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[bitcoincash:qre8lu4lasfn9kaxgaayhslh6wz2hvqtpvl2tgf75l]]></description>
-            <content:encoded><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></title>
-            <link>https://drive.google.com/file/d/1W9cy6mfDvuRCsWgImO2oTvnKbQcAeTsC/view?usp=sharing</link>
-            <guid>https://drive.google.com/file/d/1W9cy6mfDvuRCsWgImO2oTvnKbQcAeTsC/view?usp=sharing</guid>
-            <pubDate>Sun, 07 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[bitcoincash:qzkkzt34vdmf6rm98ndhhuf5l5d038jp25l7trwrl6]]></description>
-            <content:encoded><![CDATA[Community Debate & Bitcoin Cash vs Bitcoin]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Elon Musk hypes Bitcoin & Crypto Convert Q&A]]></title>
-            <link>https://drive.google.com/file/d/1ml9J4zMKoU8ogvGvgN5l2cDq3eO0jTgo/view?usp=sharing</link>
-            <guid>https://drive.google.com/file/d/1ml9J4zMKoU8ogvGvgN5l2cDq3eO0jTgo/view?usp=sharing</guid>
-            <pubDate>Sat, 30 Jan 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[bitcoincash:qzm49092tapkkuzvlr2q5hkv0un6rucq4vvspptszt]]></description>
-            <content:encoded><![CDATA[Elon Musk hypes Bitcoin & Crypto Convert Q&A]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Grassroots adoption & /r/wallstreetbets vs Wall Street]]></title>
-            <link>https://drive.google.com/file/d/1H4Hx3hGGA7iDQj5YluuC9sKGGNPUYmTM/view?usp=sharing</link>
-            <guid>https://drive.google.com/file/d/1H4Hx3hGGA7iDQj5YluuC9sKGGNPUYmTM/view?usp=sharing</guid>
-            <pubDate>Thu, 28 Jan 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[bitcoincash:qqldcn9p2qupgkmq4ctrqujyd4ju2m94y5fq680hye]]></description>
-            <content:encoded><![CDATA[Grassroots adoption & /r/wallstreetbets vs Wall Street]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Whitepaper Whitewashing & History of The Flippening]]></title>
-            <link>https://drive.google.com/file/d/1b_Ra-IX1Lxt6X4doRVeLnxOogsaLwl1a/view?usp=sharing</link>
-            <guid>https://drive.google.com/file/d/1b_Ra-IX1Lxt6X4doRVeLnxOogsaLwl1a/view?usp=sharing</guid>
-            <pubDate>Fri, 22 Jan 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[bitcoincash:qq0u3gej2rw9elpe42pp4cy25qknh2r0fvgfnpv7qm]]></description>
-            <content:encoded><![CDATA[Whitepaper Whitewashing & History of The Flippening]]></content:encoded>
-        </item>
-    </channel>
+<rss xml:lang="en" version="2.0">
+<channel>
+<title>The Bitcoin Cash Podcast</title>
+<link>https://bitcoincashpodcast.com</link>
+<atom:link href="https://bitcoincashpodcast.com/rss.xml" rel="self" type="application/rss+xml"/>
+<description>
+Following Bitcoin Cash on its rise to global reserve currency. https://www.bitcoincashpodcast.com
+</description>
+<generator>Bitcoincashpodcast.com</generator>
+<lastBuildDate>Tue, 23 Feb 2021 00:53:01 +0000</lastBuildDate>
+<language>en</language>
+<copyright>Seth Industries Pty Ltd 2020</copyright>
+<itunes:image href="https://media.rss.com/bitcoincashpodcast/20210123_033620_869467d9e5b7c93de3018fe04ec00e66.jpg"/>
+<image>
+<url>
+https://media.rss.com/bitcoincashpodcast/20210123_033620_869467d9e5b7c93de3018fe04ec00e66.jpg
+</url>
+<title>The Bitcoin Cash Podcast</title>
+<link>https://bitcoincashpodcast.com</link>
+</image>
+<itunes:summary>
+Following Bitcoin Cash on its rise to global reserve currency. https://www.bitcoincashpodcast.com
+</itunes:summary>
+<podcast:locked owner="jeremy@sethindustries.com.au">No</podcast:locked>
+<itunes:author>Jeremy</itunes:author>
+<itunes:owner>
+<itunes:name>Jeremy</itunes:name>
+<itunes:email>jeremy@sethindustries.com.au</itunes:email>
+</itunes:owner>
+<itunes:explicit>no</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<itunes:category text="News">
+<itunes:category text="Tech News"/>
+</itunes:category>
+<itunes:category text="Business">
+<itunes:category text="Entrepreneurship"/>
+</itunes:category>
+<itunes:category text="Business">
+<itunes:category text="Investing"/>
+</itunes:category>
+
+<item>
+<title>
+#1: Whitepaper Whitewashing & History of The Flippening
+</title>
+<itunes:title>
+#1: Whitepaper Whitewashing & History of The Flippening
+</itunes:title>
+<itunes:summary>
+The Bitcoin Cash Podcast #1: Whitepaper Whitewashing & History of The Flippening https://www.bitcoincashpodcast.com BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp
+</itunes:summary>
+<description>
+<p>The Bitcoin Cash Podcast #1: Whitepaper Whitewashing & History of The Flippening </p><p><a href="https://www.bitcoincashpodcast.com" rel="noopener noreferrer nofollow">https://www.bitcoincashpodcast.com</a> </p><p>BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp</p>
+</description>
+<link>https://rss.com/podcasts/bitcoincashpodcast/123537</link>
+<enclosure url="https://media.rss.com/bitcoincashpodcast/20210123_040002_50d389e155bb687f1869f33ceff3e71a.mp3" length="65125982" type="audio/mp3"/>
+<guid isPermaLink="false">c8894e3d-cc19-2199-aabf-9f33c3285bbc</guid>
+<itunes:image href="https://media.rss.com/bitcoincashpodcast/20210123_040112_5b8f5922edf65f8373466383cbd0f6b4.jpg"/>
+<itunes:duration>4071</itunes:duration>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:episode>1</itunes:episode>
+<itunes:season>1</itunes:season>
+<itunes:explicit>no</itunes:explicit>
+<pubDate>Sat, 23 Jan 2021 4:01:10 GMT</pubDate>
+</item>
+
+<item>
+<title>
+#1: Whitepaper Whitewashing & History of The Flippening
+</title>
+<itunes:title>
+#1: Whitepaper Whitewashing & History of The Flippening
+</itunes:title>
+<itunes:summary>
+The Bitcoin Cash Podcast #1: Whitepaper Whitewashing & History of The Flippening https://www.bitcoincashpodcast.com BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp
+</itunes:summary>
+<description>
+<p>The Bitcoin Cash Podcast #1: Whitepaper Whitewashing & History of The Flippening </p><p><a href="https://www.bitcoincashpodcast.com" rel="noopener noreferrer nofollow">https://www.bitcoincashpodcast.com</a> </p><p>BCH: 13u4JV4Ace94evGuujUFfh5VgNLV3jsTHp</p>
+</description>
+<link>https://rss.com/podcasts/bitcoincashpodcast/123537</link>
+<enclosure url="https://media.rss.com/bitcoincashpodcast/20210123_040002_50d389e155bb687f1869f33ceff3e71a.mp3" length="65125982" type="audio/mp3"/>
+<guid isPermaLink="false">c8894e3d-cc19-2199-aabf-9f33c3285bbc</guid>
+<itunes:image href="https://media.rss.com/bitcoincashpodcast/20210123_040112_5b8f5922edf65f8373466383cbd0f6b4.jpg"/>
+<itunes:duration>4071</itunes:duration>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:episode>1</itunes:episode>
+<itunes:season>1</itunes:season>
+<itunes:explicit>no</itunes:explicit>
+<pubDate>Sat, 23 Jan 2021 4:01:10 GMT</pubDate>
+</item>
+</channel>
 </rss>
