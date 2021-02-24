@@ -65,6 +65,7 @@ const Home = () => {
               RSS Feed
             </u>
           </a> 
+          Also on Apple Podcasts, Google Podcasts, Spotify, Stitcher.
         </p>
 
         <Grid style={styles.gridContainer} container spacing={2}>
