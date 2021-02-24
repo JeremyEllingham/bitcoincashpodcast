@@ -59,31 +59,13 @@ const Home = () => {
           <br />
           <a 
             style={styles.link} 
-            href='https://bitcoincashpodcast.com/rss.xml' 
+            href='https://media.rss.com/bitcoincashpodcast/feed.xml' 
             target='_blank'
           >
             <u>
               RSS Feed
             </u>
           </a> 
-          {/* <a 
-            style={styles.link} 
-            href='https://bitcoincashpodcast.com/atom.xml' 
-            target='_blank'
-          >
-            <u>
-              Atom Feed
-            </u>
-          </a>
-          <a 
-            style={styles.link} 
-            href='https://bitcoincashpodcast.com/feed.json' 
-            target='_blank'
-          >
-            <u>
-              JSON Feed
-            </u>
-          </a>  */}
         </p>
 
         <Grid style={styles.gridContainer} container spacing={2}>
