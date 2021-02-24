@@ -1,5 +1,4 @@
 
-import fs from 'fs'
 import Head from 'next/head'
 import styles2 from '../styles/Home.module.css'
 import Grid from '@material-ui/core/Grid'
@@ -84,17 +83,17 @@ const Home = () => {
   )
 }
 
-export async function getStaticProps() {
-  // const feeds = await generateRssFeed();
-  // const { rss, atom, json } = feeds
+// export async function getStaticProps() {
+//   // const feeds = await generateRssFeed();
+//   // const { rss, atom, json } = feeds
 
-  // fs.writeFileSync('./public/rss.xml', rss)
-  // fs.writeFileSync('./public/atom.xml', atom);
-  // fs.writeFileSync('./public/feed.json', json);
+//   // fs.writeFileSync('./public/rss.xml', rss)
+//   // fs.writeFileSync('./public/atom.xml', atom);
+//   // fs.writeFileSync('./public/feed.json', json);
 
-  return {
-    props: {}
-  }
-}
+//   return {
+//     props: {}
+//   }
+// }
 
 export default Home
