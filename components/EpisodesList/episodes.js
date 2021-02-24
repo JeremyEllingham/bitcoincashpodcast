@@ -42,7 +42,7 @@ const episodes = [
   },
   {
     id: 5,
-    title: 'Community Debate & Bitcoin Cash vs Bitcoin',
+    title: 'Tesla Buys Bitcoin & Why Cryptocurrencies',
     date: 'Wednesday, 10th February 2021',
     dateRSS: new Date(2021, 1, 10),
     bchAddress: 'bitcoincash:qre8lu4lasfn9kaxgaayhslh6wz2hvqtpvl2tgf75l',
