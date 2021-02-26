@@ -70,6 +70,11 @@ const links = [
       description: "Rick Falkvinge discusses Blocksteam's influence in BTC.",
     },
     {
+      url: "https://www.youtube.com/watch?v=2nBPN-MKefA",
+      title: 'Money as Debt',
+      description: 'Why everyone and every country is constantly drowning in debt.'
+    },
+    {
       url: 'https://www.youtube.com/watch?v=CsCsxUM1y_w',
       title: 'Blockworks',
       description: "Charlie Shrem talks about the cryptocurrency space.",
