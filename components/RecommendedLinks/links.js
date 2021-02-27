@@ -89,6 +89,12 @@ const links = [
       title: 'Bitcoin Obituaries',
       description: 'Declared dead 350+ times for over 10 years. RIP the haters.',
     },
+    ,
+    {
+      url: 'https://cash.coin.dance/development',
+      title: 'BCH Development Upgrades',
+      description: 'Keep an eye on what tech is being added to BCH.',
+    }
     {
       url: 'https://www.youtube.com/watch?v=HggepmwdIBI',
       title: 'BCH Network Discussions',
