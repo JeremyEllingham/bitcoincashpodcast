@@ -15,6 +15,11 @@ const links = [
     description: 'Live streams.'
   },
   {
+    url: "https://twitter.com/TheBCHPodcast",
+    title: 'Twitter',
+    description: 'I tweet when an episode is going live.'
+  },
+  {
     url: "https://read.cash/@BitcoinCashPodcast",
     title: 'Read.cash',
     description: "BCH blogging platform."
