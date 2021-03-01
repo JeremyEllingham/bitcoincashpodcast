@@ -59,6 +59,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1zBdbPFPjW5YJlSn5RwS1PaQSOPs_0ylo/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1GA7bCSuxIK_Ss3jL7I3Piu2Xx7KkBkdD3zofATWBUnc/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=7wTBSyPkS2w',
+  },
+  {
+    id: 7,
+    title: 'Tether Investigation & Cryptocurrency Volatility',
+    date: 'Sunday, 28th February 2021',
+    dateRSS: new Date(2021, 1, 28),
+    bchAddress: 'bitcoincash:qq57k9jgq9anfuvnp02z5zmav4kxs6jn7qzywcjh84',
+    mp3: "https://drive.google.com/file/d/1zBdbPFPjW5YJlSn5RwS1PaQSOPs_0ylo/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1AuN_Z6pMBfOjHipi2WlvO9302HjF-PIQhv2YowfKqj8/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=7wTBSyPkS2w',
   }
 ]
 
