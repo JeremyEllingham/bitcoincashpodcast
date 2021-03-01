@@ -18,7 +18,12 @@ const links = [
     url: "https://www.youtube.com/channel/UCeMLefUb2ibi5daPfKX4W7w",
     title: 'Bitcoin Kid',
     description: 'Educational Youtuber.'
-  }
+  },
+  {
+    url: "https://www.twitch.tv/kain_niak",
+    title: 'Matthias Bos',
+    description: 'EDM Musician, streamer and BCH content creator.'
+  }, 
 ]
 
 export default links
