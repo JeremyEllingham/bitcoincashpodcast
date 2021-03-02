@@ -103,6 +103,11 @@ const links = [
       url: 'https://www.youtube.com/watch?v=HggepmwdIBI',
       title: 'BCH Network Discussions',
       description: 'Keep an eye on what BCH development is happening.',
+    },
+    {
+      url: 'https://read.cash/@Mr-Zwets/the-year-2018-in-bitcoin-cash-a9d8e67c#the-technical-excuses',
+      title: 'The year 2018 in Bitcoin Cash',
+      description: 'BCH history, around the time of BCH <> BSV fork.',
     }
   ]
 
