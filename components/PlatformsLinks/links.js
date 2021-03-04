@@ -1,10 +1,5 @@
 const links = [
   {
-    url: "https://www.patreon.com/bitcoincashpodcast",
-    title: 'Patreon',
-    description: "Support the show on an ongoing basis. Pays in fiat (for now), but I use it all to buy BCH."
-  },
-  {
     url: "https://www.youtube.com/channel/UCsrDsJnHFnkMnJhEslofyPQ",
     title: 'Youtube',
     description: 'Videos.'
@@ -18,6 +13,11 @@ const links = [
     url: "https://twitter.com/TheBCHPodcast",
     title: 'Twitter',
     description: 'I tweet when an episode is going live.'
+  },
+  {
+    url: "https://www.patreon.com/bitcoincashpodcast",
+    title: 'Patreon',
+    description: "Support the show on an ongoing basis. Pays in fiat (for now), but I use it all to buy BCH."
   },
   {
     url: "https://read.cash/@BitcoinCashPodcast",
