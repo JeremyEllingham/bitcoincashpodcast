@@ -8,6 +8,7 @@ import RecommendedLinks from '../components/RecommendedLinks'
 import Prices from '../components/Prices'
 import People from '../components/People'
 import generateRssFeed from '../lib/rss'
+import DonationButton from '../components/DonationButton'
 
 const styles = {
   gridContainer: {
@@ -74,6 +75,7 @@ const Home = () => {
           </Grid>
 
           <Grid justify="center" item md={3} lg={3}>
+            <DonationButton />
             <PlatformsLinks />
             <RecommendedLinks />
             <People />
