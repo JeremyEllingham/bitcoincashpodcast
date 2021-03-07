@@ -5,6 +5,7 @@ const DonationButton = () => {
     console.log("Success!")
   }
 
+  const BCH_GREEN = 'CB8455'
   const to = 'bitcoincash:qqq24rak0cea37qcnfuj2qvt5sdlpp8x9gnjunmqvn'
   const amount = 5
   const currency = 'USD'
@@ -12,8 +13,8 @@ const DonationButton = () => {
   const hoverText = 'Keeps the content rolling!'
   const theme = {
     palette: {
-      primary: '#B94283',
-      secondary: '#FFFFFF',
+      primary: BCH_GREEN,
+      secondary: '#E4E4E4',
       tertiary: '#333333'
     }
   }
