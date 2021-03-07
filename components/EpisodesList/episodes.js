@@ -69,6 +69,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1wVFhFuA7kFmXyCCdIcV5F9ZNLAZYENAk/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1AuN_Z6pMBfOjHipi2WlvO9302HjF-PIQhv2YowfKqj8/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=PYUj7VqVJ_U',
+  },
+  {
+    id: 8,
+    title: 'The Path To Global Adoption',
+    date: 'Sunday, 7th March 2021',
+    dateRSS: new Date(2021, 2, 7),
+    bchAddress: 'bitcoincash:qq62hdqp0hsa23qtevknnqy5nu03nwjn5u9fh4ypjr',
+    mp3: "https://drive.google.com/file/d/1wVFhFuA7kFmXyCCdIcV5F9ZNLAZYENAk/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1rOvOaAzGc-xAw39KtvK1p3erZpNIrh_vUIdS0cvUgzM/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=PYUj7VqVJ_U',
   }
 ]
 
