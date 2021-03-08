@@ -113,6 +113,11 @@ const links = [
       url: 'https://read.cash/@Mr-Zwets/the-year-2018-in-bitcoin-cash-a9d8e67c#the-technical-excuses',
       title: 'The year 2018 in Bitcoin Cash',
       description: 'BCH history, around the time of BCH <> BSV fork.',
+    },
+    {
+      url: 'https://bitcoincash.site/',
+      title: 'BitcoinCash.site',
+      description: 'Adoption platform, blog and information source in the developing world',
     }
   ]
 
