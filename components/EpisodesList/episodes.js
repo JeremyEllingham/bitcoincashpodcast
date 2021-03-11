@@ -79,6 +79,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1GHMQoOHVb5XRMRCwh2-LJP5SCcVdOARk/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1rOvOaAzGc-xAw39KtvK1p3erZpNIrh_vUIdS0cvUgzM/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=chaOSbdZsPk',
+  },
+  {
+    id: 9,
+    title: 'Bitcoin Forks & Adoption In Detroit',
+    date: 'Wednesday, 10th March 2021',
+    dateRSS: new Date(2021, 2, 10),
+    bchAddress: 'bitcoincash:qq62hdqp0hsa23qtevknnqy5nu03nwjn5u9fh4ypjr',
+    mp3: "https://drive.google.com/file/d/1jga8KYTVb0SBdVHV44dq5_uaB21q0wBh/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1IFQB93rRJ7C7XENrTxZgpLs3yM_GCcxlwu19-cm2WCo/edit?usp=sharing",
+    youtube: '',
   }
 ]
 
