@@ -88,7 +88,7 @@ const episodes = [
     bchAddress: 'bitcoincash:qq62hdqp0hsa23qtevknnqy5nu03nwjn5u9fh4ypjr',
     mp3: "https://drive.google.com/file/d/1jga8KYTVb0SBdVHV44dq5_uaB21q0wBh/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1IFQB93rRJ7C7XENrTxZgpLs3yM_GCcxlwu19-cm2WCo/edit?usp=sharing",
-    youtube: '',
+    youtube: 'https://www.youtube.com/watch?v=lCucgcEevVw',
   }
 ]
 
