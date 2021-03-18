@@ -89,6 +89,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1jga8KYTVb0SBdVHV44dq5_uaB21q0wBh/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1IFQB93rRJ7C7XENrTxZgpLs3yM_GCcxlwu19-cm2WCo/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=lCucgcEevVw',
+  },
+  {
+    id: 10,
+    title: 'Cryptocurrency gets cool & the Bitcoin (BTC) Bubble',
+    date: 'Wednesday, 17th March 2021',
+    dateRSS: new Date(2021, 2, 17),
+    bchAddress: 'bitcoincash:qrxxgp6wkc2k90xej9r8y8xc7t98ecykmy58m3z8fm',
+    mp3: "",
+    slideDeck: "https://docs.google.com/presentation/d/1rjZ4VQqiXkuyY7CWPGIcHEVhIWx0Y2_4ANf_43Hi3O4/edit?usp=sharing",
+    youtube: '',
   }
 ]
 
