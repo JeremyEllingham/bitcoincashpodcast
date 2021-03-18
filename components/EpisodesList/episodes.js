@@ -96,9 +96,9 @@ const episodes = [
     date: 'Wednesday, 17th March 2021',
     dateRSS: new Date(2021, 2, 17),
     bchAddress: 'bitcoincash:qrxxgp6wkc2k90xej9r8y8xc7t98ecykmy58m3z8fm',
-    mp3: "",
+    mp3: "https://drive.google.com/file/d/1avOSmC9jNB2giletmVcQZeAr5hnBU2Yn/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1rjZ4VQqiXkuyY7CWPGIcHEVhIWx0Y2_4ANf_43Hi3O4/edit?usp=sharing",
-    youtube: '',
+    youtube: 'https://www.youtube.com/watch?v=vxHpRog6nGk',
   }
 ]
 
