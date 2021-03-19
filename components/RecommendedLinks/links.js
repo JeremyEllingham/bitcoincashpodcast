@@ -45,6 +45,11 @@ const links = [
       description: 'Kim Dotcom talks to BTC Core supporters about Bitcoin.'
     },
     {
+      url: "http://blog.vermorel.com/journal/2017/12/17/terabyte-blocks-for-bitcoin-cash.html",
+      title: 'Terabyte blocks for Bitcoin Cash',
+      description: '2017 article explaining Bitcoin Cash as already feasible for 10 billion people.'
+    },
+    {
       url: 'https://whybitcoincash.com/',
       title: 'Why Bitcoin Cash',
       description: "BCH vs BTC informational website.",
