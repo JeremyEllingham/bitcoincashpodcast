@@ -5,19 +5,9 @@ const links = [
     description: 'Videos.'
   },
   {
-    url: "https://www.twitch.tv/thebitcoincashpodcast",
-    title: 'Twitch.tv',
-    description: 'Live streams.'
-  },
-  {
     url: "https://twitter.com/TheBCHPodcast",
     title: 'Twitter',
     description: 'I tweet when an episode is going live.'
-  },
-  {
-    url: "https://www.patreon.com/bitcoincashpodcast",
-    title: 'Patreon',
-    description: "Support the show on an ongoing basis. Pays in fiat (for now), but I use it all to buy BCH."
   },
   {
     url: "https://read.cash/@BitcoinCashPodcast",
@@ -29,6 +19,22 @@ const links = [
     title: 'Noise.cash',
     description: "BCH Twitter."
   },
+  {
+    url: "#",
+    title: 'Email',
+    description: "jeremy@bitcoincashpodcast.com"
+  },
+  {
+    url: "https://www.twitch.tv/thebitcoincashpodcast",
+    title: 'Twitch.tv',
+    description: 'Live streams.'
+  },
+  {
+    url: "https://www.patreon.com/bitcoincashpodcast",
+    title: 'Patreon',
+    description: "Support the show on an ongoing basis. Pays in fiat (for now), but I use it all to buy BCH."
+  },
+
 ]
 
 export default links
