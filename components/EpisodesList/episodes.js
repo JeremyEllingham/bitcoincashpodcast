@@ -99,6 +99,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1avOSmC9jNB2giletmVcQZeAr5hnBU2Yn/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1rjZ4VQqiXkuyY7CWPGIcHEVhIWx0Y2_4ANf_43Hi3O4/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=vxHpRog6nGk',
+  },
+  {
+    id: 11,
+    title: 'Elon Musk considering BCH? NFTs & SLP',
+    date: 'Friday, 26th March 2021',
+    dateRSS: new Date(2021, 2, 26),
+    bchAddress: 'bitcoincash:qranaxulgyatp5rpzgp89c3jan5uveq0pg6t6jpyz8',
+    mp3: "https://drive.google.com/file/d/148T9rw99TmsYWA26XjqnXt2gXMg4JJbq/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1I_aR05x8CVeJo9s80VA-ENe3DicXyg18zLu9VZywUXw/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=YI1IiDlf5yc',
   }
 ]
 
