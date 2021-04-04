@@ -109,6 +109,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/148T9rw99TmsYWA26XjqnXt2gXMg4JJbq/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1I_aR05x8CVeJo9s80VA-ENe3DicXyg18zLu9VZywUXw/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=YI1IiDlf5yc',
+  },
+  {
+    id: 12,
+    title: 'Censored Kim Dotcom BCH vs BTC Debate Commentary',
+    date: 'Sunday, 4th April 2021',
+    dateRSS: new Date(2021, 3, 4),
+    bchAddress: 'bitcoincash:qrvwejwh0gd72d4uhe26lccq8zfpqzrsd50uv0jg8z',
+    mp3: "https://drive.google.com/file/d/1rfMAE3Ey5ElS5O-ZtXWjBZqn8hpj_hSO/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1PjhEJv6P_Y5ZhCrrI_EvHjC5YneSgGpD2DwxLEKu7CA/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=TE9aE9rFSUs',
   }
 ]
 
