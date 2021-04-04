@@ -20,6 +20,11 @@ const links = [
       description: "Watch Bitcoin Cash's smooth bus station overtake Bitcoin's overcrowded mess.",
     },
     {
+      url: "https://lbry.tv/@freedomain:b/crypto_roundtable_10_history_of_revolution:9",
+      title: 'Bitcoin: The History Of A Revolution',
+      description: 'Stefan Molyneux and others discuss in detail the history of Bitcoin and the scaling debate.'
+    },
+    {
       url: 'https://cash.coin.dance/blocks/transactions',
       title: 'Coin.dance',
       description: 'Keep up on the latest Bitcoin Cash stats.',
