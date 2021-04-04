@@ -105,11 +105,6 @@ const links = [
       description: 'Informational site.',
     },
     {
-      url: 'https://bitcoincash.org/roadmap/',
-      title: 'BCH Roadmap',
-      description: 'Follow the path to global adoption technically speaking.',
-    },
-    {
       url: 'https://cash.coin.dance/development',
       title: 'BCH Development Upgrades',
       description: 'Keep an eye on what tech is being added to BCH.',
