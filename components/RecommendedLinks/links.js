@@ -25,6 +25,11 @@ const links = [
       description: 'Stefan Molyneux and others discuss in detail the history of Bitcoin and the scaling debate.'
     },
     {
+      url: "https://satoshi.nakamotoinstitute.org/",
+      title: 'The Complete Satoshi',
+      description: "Cryptocurrency's progenitor's full ideas."
+    },
+    {
       url: 'https://cash.coin.dance/blocks/transactions',
       title: 'Coin.dance',
       description: 'Keep up on the latest Bitcoin Cash stats.',
