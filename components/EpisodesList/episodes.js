@@ -119,6 +119,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1rfMAE3Ey5ElS5O-ZtXWjBZqn8hpj_hSO/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1PjhEJv6P_Y5ZhCrrI_EvHjC5YneSgGpD2DwxLEKu7CA/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=TE9aE9rFSUs',
+  },
+  {
+    id: 13,
+    title: 'The Flippening Begins? & Proof of Passion',
+    date: 'Tuesday, 13th April 2021',
+    dateRSS: new Date(2021, 3, 13),
+    bchAddress: 'bitcoincash:qzulytrwhw902fgc9rnpxuj4tzwwnphwdccfphwwc6',
+    mp3: "https://drive.google.com/file/d/1M63uokaWk-FT5gOx6DKmq-TKuxFO-q_L/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1XIZ-nqwbt92GD5dthZXAEsxf0Le57T5Y6_l4nNh-jXk/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=TE9aE9rFSUs',
   }
 ]
 
