@@ -128,6 +128,11 @@ const links = [
       url: 'https://bitcoincash.site/',
       title: 'BitcoinCash.site',
       description: 'Adoption platform, blog and information source in the developing world',
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=r6-yBOC9oIs',
+      title: 'Roger Ver: A Short History of Bitcoin full of Intrigues, Censorship & The CIA?! ',
+      description: 'Roger Ver interviewed on the history of Bitcoin',
     }
   ]
 
