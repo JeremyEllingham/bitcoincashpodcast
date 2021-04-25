@@ -129,6 +129,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1M63uokaWk-FT5gOx6DKmq-TKuxFO-q_L/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1XIZ-nqwbt92GD5dthZXAEsxf0Le57T5Y6_l4nNh-jXk/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=zjNWBsqKjaM',
+  },
+  {
+    id: 14,
+    title: 'The Flippening Accelerates & BCH, Dogecoin Surge',
+    date: 'Thursday, 22nd April 2021',
+    dateRSS: new Date(2021, 3, 22),
+    bchAddress: 'bitcoincash:qqm8u74mc67qjqcwqhnma4j0xyuaedal4ugk9k22tq',
+    mp3: "https://drive.google.com/file/d/1gya0i6EJlg7z5WzydeydojqnAUsrjGAd/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1VgyBJWFJrJhUajznQBFkle6yexAm4VzX6UwtgYupBe0/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=1bF25jEXYbE',
   }
 ]
 
