@@ -139,6 +139,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1gya0i6EJlg7z5WzydeydojqnAUsrjGAd/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1VgyBJWFJrJhUajznQBFkle6yexAm4VzX6UwtgYupBe0/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=1bF25jEXYbE',
+  },
+  {
+    id: 15,
+    title: 'Peter vs Spencer Schiff & Crypto Content Creation',
+    date: 'Sunday, 25th April 2021',
+    dateRSS: new Date(2021, 3, 25),
+    bchAddress: 'bitcoincash:qpyp7na3fnsxlfy8pfehhensvw3c3vndlqxh4gmkd9',
+    mp3: "https://drive.google.com/file/d/1zxqBWb7sr53zH3kSxaes6a1lvaSM5S85/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1oEHRBG50JjC7oui04QEGeWFp0qm4Kw8Mta_hjhNkpao/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=LKtwgXf7h3w',
   }
 ]
 
