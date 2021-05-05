@@ -5,7 +5,7 @@ const DonationButton = () => {
     console.log("Success!")
   }
 
-  const BCH_GREEN = '#CB8455'
+  const BCH_GREEN = '#84cb55'
   const to = 'bitcoincash:qqq24rak0cea37qcnfuj2qvt5sdlpp8x9gnjunmqvn'
   const amount = 5
   const currency = 'USD'
