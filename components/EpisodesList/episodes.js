@@ -149,6 +149,16 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1zxqBWb7sr53zH3kSxaes6a1lvaSM5S85/view?usp=sharing",
     slideDeck: "https://docs.google.com/presentation/d/1oEHRBG50JjC7oui04QEGeWFp0qm4Kw8Mta_hjhNkpao/edit?usp=sharing",
     youtube: 'https://www.youtube.com/watch?v=LKtwgXf7h3w',
+  },
+  {
+    id: 16,
+    title: 'BCH around the world & Cryptocurrency Communities',
+    date: 'Sunday, 2nd May 2021',
+    dateRSS: new Date(2021, 4, 2),
+    bchAddress: 'bitcoincash:qzle3wdqtdcsfaes75999tdkh39m4n5exqrx3s6s2',
+    mp3: "https://drive.google.com/file/d/1NYugC6NjUegc7602WKOLYqngL5Hk8Q-t/view?usp=sharing",
+    slideDeck: "https://docs.google.com/presentation/d/1YpDTloElm5SuH_4bnN2vl1f6eZI_hoO7C01vVkuKSFM/edit?usp=sharing",
+    youtube: 'https://www.youtube.com/watch?v=GHH9PKFu16M',
   }
 ]
 
