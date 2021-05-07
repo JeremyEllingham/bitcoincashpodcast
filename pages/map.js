@@ -90,6 +90,7 @@ const myConfig = {
   directed: true,
   height: 1600,
   width: 1600,
+  highlightDegree: 0,
   node: {
     color: "lightgreen",
     size: 120,
