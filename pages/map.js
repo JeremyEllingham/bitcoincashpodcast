@@ -46,6 +46,7 @@ const data = {
     // Community Discussion
     {
       id: "Reddit /r/btc",
+      url: "https://www.reddit.com/r/btc",
       size: nodeSizes.level3,
       color: colours.green,
       x: 350,
@@ -53,6 +54,7 @@ const data = {
     },
     {
       id: "Reddit /r/BitcoinCash",
+      url: "https://www.reddit.com/r/BitcoinCash",
       size: nodeSizes.level3,
       color: colours.green,
       x: 450,
@@ -85,7 +87,12 @@ const myConfig = {
 
 const Map = () => {
   const onClickNode = function (nodeId) {
-    window.alert(`Clicked node ${nodeId}`);
+    console.log(`Clicked node ${nodeId}`);
+    const url = data?.nodes?.filter((n) => n?.id === nodeId)?.[0]?.url;
+
+    if (url) {
+      window.open(url, "_blank");
+    }
   };
 
   const onClickLink = function (source, target) {
@@ -100,6 +107,9 @@ const Map = () => {
         Pull requests welcome:
         https://github.com/JeremyEllingham/bitcoincashpodcast
       </p>
+      <ul>
+        <li>Click green links to open the relevant page</li>
+      </ul>
       <Graph
         id="graph-id" // id is mandatory
         data={data}
