@@ -11,6 +11,13 @@ const nodeSizes = {
   level4: 700,
 };
 
+const fontSizes = {
+  level1: 36,
+  level2: 30,
+  level3: 24,
+  level4: 18,
+};
+
 const colours = {
   red: "red",
   green: "green",
@@ -25,6 +32,7 @@ const data = {
       id: "Bitcoin Cash",
       size: nodeSizes.level1,
       color: colours.red,
+      fontSize: fontSizes.level1,
       x: 700,
       y: 400,
     },
@@ -33,6 +41,7 @@ const data = {
       id: "Engineering",
       size: nodeSizes.level2,
       color: colours.blue,
+      fontSize: fontSizes.level2,
       x: 700,
       y: 550,
     },
@@ -40,6 +49,7 @@ const data = {
       id: "Community Discussion",
       size: nodeSizes.level2,
       color: colours.blue,
+      fontSize: fontSizes.level2,
       x: 700,
       y: 250,
     },
@@ -49,6 +59,7 @@ const data = {
       url: "https://www.reddit.com/r/btc",
       size: nodeSizes.level3,
       color: colours.green,
+      fontSize: fontSizes.level3,
       x: 600,
       y: 150,
     },
@@ -57,6 +68,7 @@ const data = {
       url: "https://www.reddit.com/r/BitcoinCash",
       size: nodeSizes.level3,
       color: colours.green,
+      fontSize: fontSizes.level3,
       x: 800,
       y: 150,
     },
