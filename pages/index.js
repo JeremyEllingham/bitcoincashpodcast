@@ -86,17 +86,4 @@ const Home = () => {
   )
 }
 
-// export async function getStaticProps() {
-//   // const feeds = await generateRssFeed();
-//   // const { rss, atom, json } = feeds
-
-//   // fs.writeFileSync('./public/rss.xml', rss)
-//   // fs.writeFileSync('./public/atom.xml', atom);
-//   // fs.writeFileSync('./public/feed.json', json);
-
-//   return {
-//     props: {}
-//   }
-// }
-
 export default Home
