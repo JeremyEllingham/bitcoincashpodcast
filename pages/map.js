@@ -5,10 +5,10 @@ import { Graph } from "react-d3-graph";
 // https://danielcaldas.github.io/react-d3-graph/docs/
 
 const nodeSizes = {
-  level1: 1000,
-  level2: 750,
-  level3: 500,
-  level4: 300,
+  level1: 5000,
+  level2: 2200,
+  level3: 1000,
+  level4: 700,
 };
 
 const colours = {
@@ -25,23 +25,23 @@ const data = {
       id: "Bitcoin Cash",
       size: nodeSizes.level1,
       color: colours.red,
-      x: 400,
-      y: 200,
+      x: 700,
+      y: 400,
     },
     // Level 2 Node
     {
       id: "Engineering",
       size: nodeSizes.level2,
       color: colours.blue,
-      x: 400,
-      y: 250,
+      x: 700,
+      y: 550,
     },
     {
       id: "Community Discussion",
       size: nodeSizes.level2,
       color: colours.blue,
-      x: 400,
-      y: 150,
+      x: 700,
+      y: 250,
     },
     // Community Discussion
     {
@@ -49,16 +49,16 @@ const data = {
       url: "https://www.reddit.com/r/btc",
       size: nodeSizes.level3,
       color: colours.green,
-      x: 350,
-      y: 100,
+      x: 600,
+      y: 150,
     },
     {
       id: "Reddit /r/BitcoinCash",
       url: "https://www.reddit.com/r/BitcoinCash",
       size: nodeSizes.level3,
       color: colours.green,
-      x: 450,
-      y: 100,
+      x: 800,
+      y: 150,
     },
   ],
   links: [
@@ -75,6 +75,9 @@ const data = {
 const myConfig = {
   nodeHighlightBehavior: true,
   staticGraph: true,
+  directed: true,
+  height: 1600,
+  width: 1600,
   node: {
     color: "lightgreen",
     size: 120,
@@ -111,6 +114,7 @@ const Map = () => {
         <li>Click green circles to open the relevant page</li>
       </ul>
       <Graph
+        style={{ border: "1px black solid" }}
         id="graph-id" // id is mandatory
         data={data}
         config={myConfig}
