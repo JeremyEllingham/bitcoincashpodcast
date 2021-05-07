@@ -108,7 +108,7 @@ const Map = () => {
         https://github.com/JeremyEllingham/bitcoincashpodcast
       </p>
       <ul>
-        <li>Click green links to open the relevant page</li>
+        <li>Click green circles to open the relevant page</li>
       </ul>
       <Graph
         id="graph-id" // id is mandatory
