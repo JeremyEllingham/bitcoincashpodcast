@@ -180,11 +180,22 @@ const episodes = [
     title: "BCH in Argentina & History of Cryptocurrency",
     date: "Sunday, 9th May 2021",
     dateRSS: new Date(2021, 4, 9),
-    bchAddress: "bitcoincash:qpgjlz7q83xycmxp5456gzf7xrsdm0su5s2264y6v6 ",
+    bchAddress: "bitcoincash:qpgjlz7q83xycmxp5456gzf7xrsdm0su5s2264y6v6",
     mp3: "https://drive.google.com/file/d/1AmfrpSZ0npKRZuJ8-RMyQ1Pjz6rGPOFg/view?usp=sharing",
     slideDeck:
       "https://docs.google.com/presentation/d/1ymW4E4oDAZZVkv84wLz88JjzB1Wpcm41dDC1Exo-8N0/edit?usp=sharing",
     youtube: "https://www.youtube.com/watch?v=Nk6GvmByv2U",
+  },
+  {
+    id: 18,
+    title: "Elon dumps BTC & BCH in South America",
+    date: "Wednesday, 19th May 2021",
+    dateRSS: new Date(2021, 4, 19),
+    bchAddress: "bitcoincash:qqhpwr0ejmxc540aqs660nvgymte6v4wxyd8t28xkk",
+    mp3: "https://drive.google.com/file/d/1Am6s_feiEb4V1uuUCq4f6f1EMyuNJaG0/view?usp=sharing",
+    slideDeck:
+      "https://docs.google.com/presentation/d/1hfYx2glqoNcAMauSvUOGmANTDwQfCNwWhTh9iAXqzPg/edit?usp=sharing",
+    youtube: "https://www.youtube.com/watch?v=CcCYULAtqUs",
   },
 ];
 
