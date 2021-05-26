@@ -197,6 +197,16 @@ const episodes = [
       "https://docs.google.com/presentation/d/1hfYx2glqoNcAMauSvUOGmANTDwQfCNwWhTh9iAXqzPg/edit?usp=sharing",
     youtube: "https://www.youtube.com/watch?v=CcCYULAtqUs",
   },
+  {
+    id: 19,
+    title: "The Great Crypto Debate Commentary",
+    date: "Wednesday, 26th May 2021",
+    dateRSS: new Date(2021, 4, 25),
+    bchAddress: "bitcoincash:qqtlfhjgyavzzzj0cs5m9gdwu57j9engwvg85jq27g",
+    mp3: "https://drive.google.com/file/d/1I1DjsmSe41nxXgKTr55KEXYzyeyUhAoR/view?usp=sharing",
+    slideDeck: "",
+    youtube: "https://www.youtube.com/watch?v=5miZGjcFgKY",
+  },
 ];
 
 export default episodes;
