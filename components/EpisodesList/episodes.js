@@ -207,6 +207,17 @@ const episodes = [
     slideDeck: "",
     youtube: "https://www.youtube.com/watch?v=5miZGjcFgKY",
   },
+  {
+    id: 20,
+    title: "Crypto vs Government",
+    date: "Friday, 28th May 2021",
+    dateRSS: new Date(2021, 4, 27),
+    bchAddress: "bitcoincash:qp3mmpdkwpkdjhc8mcc6zxrwl45p58tpkclzzj503j",
+    mp3: "https://drive.google.com/file/d/1_XNbz_c5NYY0JUSZffaqcFFd-UZH__3B/view?usp=sharing",
+    slideDeck:
+      "https://docs.google.com/presentation/d/1HwdKwmwkl8IhEGAwE398XRNnrTOR9smanEsLk2m8IPk/edit?usp=sharing",
+    youtube: "",
+  },
 ];
 
 export default episodes;
