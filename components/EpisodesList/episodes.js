@@ -216,7 +216,7 @@ const episodes = [
     mp3: "https://drive.google.com/file/d/1_XNbz_c5NYY0JUSZffaqcFFd-UZH__3B/view?usp=sharing",
     slideDeck:
       "https://docs.google.com/presentation/d/1HwdKwmwkl8IhEGAwE398XRNnrTOR9smanEsLk2m8IPk/edit?usp=sharing",
-    youtube: "",
+    youtube: "https://www.youtube.com/watch?v=1XvlNIJDyfI",
   },
 ];
 
