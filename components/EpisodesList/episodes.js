@@ -201,7 +201,7 @@ const episodes = [
     id: 19,
     title: "The Great Crypto Debate Commentary",
     date: "Wednesday, 26th May 2021",
-    dateRSS: new Date(2021, 4, 25),
+    dateRSS: new Date(2021, 4, 26),
     bchAddress: "bitcoincash:qqtlfhjgyavzzzj0cs5m9gdwu57j9engwvg85jq27g",
     mp3: "https://drive.google.com/file/d/1I1DjsmSe41nxXgKTr55KEXYzyeyUhAoR/view?usp=sharing",
     slideDeck: "",
@@ -211,12 +211,34 @@ const episodes = [
     id: 20,
     title: "Crypto vs Government",
     date: "Friday, 28th May 2021",
-    dateRSS: new Date(2021, 4, 27),
+    dateRSS: new Date(2021, 4, 28),
     bchAddress: "bitcoincash:qp3mmpdkwpkdjhc8mcc6zxrwl45p58tpkclzzj503j",
     mp3: "https://drive.google.com/file/d/1_XNbz_c5NYY0JUSZffaqcFFd-UZH__3B/view?usp=sharing",
     slideDeck:
       "https://docs.google.com/presentation/d/1HwdKwmwkl8IhEGAwE398XRNnrTOR9smanEsLk2m8IPk/edit?usp=sharing",
     youtube: "https://www.youtube.com/watch?v=1XvlNIJDyfI",
+  },
+  {
+    id: 21,
+    title: "Satoshi Pyramid & Mining Incentives",
+    date: "Friday, 4th June 2021",
+    dateRSS: new Date(2021, 5, 3),
+    bchAddress: "bitcoincash:qpcys35r6qe0rl27v5fd3gep6pg0cny9g5pclga2hh",
+    mp3: "",
+    slideDeck:
+      "https://docs.google.com/presentation/d/1XxjLVSxB3YtmYouFLhh6jKFCHUV-aPjlSsjzQ_az-ZU/edit?usp=sharing",
+    youtube: "https://www.youtube.com/watch?v=v66It2H-rUM",
+  },
+  {
+    id: 22,
+    title: "Dan Held (BTC) & Vitalik Buterin (ETH) on BCH",
+    date: "Monday, 14th June 2021",
+    dateRSS: new Date(2021, 5, 14),
+    bchAddress: "bitcoincash:qr3tmltw69hdzgmw6nvyk4jt6gvsrcks65za7pc4jx",
+    mp3: "https://drive.google.com/file/d/1Y8lbFs702GGZ-YLWKWr17hAGBkCZFaXq/view?usp=sharing",
+    slideDeck:
+      "https://docs.google.com/presentation/d/14xqDKSZfnpPYgQqqLNzTqSHkRunPPr_u4y_uJhoJy0Y/edit?usp=sharing",
+    youtube: "https://www.youtube.com/watch?v=GxVV26fFjms",
   },
 ];
 
