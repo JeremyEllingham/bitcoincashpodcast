@@ -130,8 +130,8 @@ const links = [
     description: "BCH history, around the time of BCH <> BSV fork.",
   },
   {
-    url: "https://bitcoincash.site/",
-    title: "BitcoinCash.site",
+    url: "https://bitcoincashsite.com/",
+    title: "BitcoinCashSite",
     description:
       "Adoption platform, blog and information source in the developing world",
   },
