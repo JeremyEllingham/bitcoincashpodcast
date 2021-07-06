@@ -12,17 +12,22 @@ const links = [
   {
     url: "https://twitter.com/TheBCHPodcast",
     title: "Twitter",
-    description: "I tweet when an episode is going live.",
-  },
-  {
-    url: "https://read.cash/@BitcoinCashPodcast",
-    title: "Read.cash",
-    description: "BCH blogging platform.",
+    description: "I tweet episodes and thoughts.",
   },
   {
     url: "https://noise.cash/u/TheBitcoinCashPodcast",
     title: "Noise.cash",
     description: "BCH Twitter.",
+  },
+  {
+    url: "https://cointr.ee/bitcoincashpodcast",
+    title: "Cointree",
+    description: "Links to everything else",
+  },
+  {
+    url: "https://read.cash/@BitcoinCashPodcast",
+    title: "Read.cash",
+    description: "BCH blogging platform.",
   },
   {
     url: "https://www.instagram.com/thebitcoincashpodcast/",
