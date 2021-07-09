@@ -25,6 +25,11 @@ const links = [
     description: "Links to everything else",
   },
   {
+    url: "https://t.me/thebitcoincashpodcast",
+    title: "Telegram link",
+    description: "New episode announcements.",
+  },
+  {
     url: "https://read.cash/@BitcoinCashPodcast",
     title: "Read.cash",
     description: "BCH blogging platform.",
