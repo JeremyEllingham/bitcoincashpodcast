@@ -240,6 +240,17 @@ const episodes = [
       "https://docs.google.com/presentation/d/14xqDKSZfnpPYgQqqLNzTqSHkRunPPr_u4y_uJhoJy0Y/edit?usp=sharing",
     youtube: "https://www.youtube.com/watch?v=GxVV26fFjms",
   },
+  {
+    id: 23,
+    title: "Investing & Entrepreneurialism feat. Marc de Mesel",
+    date: "Saturday, 3rd July 2021",
+    dateRSS: new Date(2021, 6, 3),
+    bchAddress: "bitcoincash:qr3tmltw69hdzgmw6nvyk4jt6gvsrcks65za7pc4jx",
+    mp3: "https://drive.google.com/file/d/1s0to9O72GiWa4IW7U5iM-_dMdc1LFlkw/view?usp=sharing",
+    slideDeck:
+      "https://docs.google.com/presentation/d/1FMb-L_Uk4r3G6cxh-74uPATIS-_LDd1fy0Ds9dem3Ig/edit",
+    youtube: "https://www.youtube.com/watch?v=uabnHX246Ow",
+  },
 ];
 
 export default episodes;
